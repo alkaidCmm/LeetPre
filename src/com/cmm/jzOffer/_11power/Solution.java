@@ -23,7 +23,7 @@ public class Solution {
 			return 1;
 		if (exponent == 1)
 			return base;
-		System.out.println((exponent & 1) == 0);
+		System.out.println((9 & 1) == 0);
 		if ((exponent & 1) == 0) {// 判定指数是偶数
 			int exponent_1 = exponent >> 1;
 			double temp = power(base, exponent_1);

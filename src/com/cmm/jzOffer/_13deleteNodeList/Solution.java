@@ -1,6 +1,5 @@
 package com.cmm.jzOffer._13deleteNodeList;
 
-import java.awt.Toolkit;
 
 /**
  * 在O（1）时间删除链表节点 题目：给定单向链表的头指针和一个节点指针，在O(1)删除该节点
