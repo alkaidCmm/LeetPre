@@ -1,7 +1,5 @@
 package com.cmm.jzOffer._04replaceBlank;
 
-import java.util.Arrays;
-
 /**
  * 实现一个函数把字符串中的空格替换成%20
  * 
@@ -11,7 +9,6 @@ import java.util.Arrays;
 public class Solution {
 
 	public String replaceBlank(String str) {
-
 		char[] strOld = str.toCharArray();
 		char[] strNew = new char[100];
 		for (int i = 0; i < strOld.length; i++)
