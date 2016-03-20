@@ -35,10 +35,10 @@ public class Solution {
 	 */
 	public List<Integer> layerOrder() {
 		Queue<Node<Integer>> q = new LinkedList<Node<Integer>>();
-		List<Integer> list = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<Integer>();// 保存遍历结果
 		q.add(root);
 		while (!q.isEmpty()) {
-			Node<Integer> current = q.remove();// 删除对头
+			Node<Integer> current = q.remove();// 删除队列头部
 			list.add(current.getValue());
 			// System.out.println(current.getValue());
 			if (current.getLeft() != null)
@@ -116,29 +116,6 @@ public class Solution {
 	}
 
 	/**
-	 * 非递归前序遍历2
-	 * 
-	 * @param node
-	 */
-	public List<Integer> preOrderNoRecursion2(Node<Integer> node) {
-		List<Integer> list = new ArrayList<Integer>();
-		Stack<Node<Integer>> stack = new Stack<Node<Integer>>();
-		// Node node = node;
-		while (node != null || stack.size() > 0) {
-			while (node != null) {// 压入所有的左节点，压入前访问它
-				System.out.print(node.getValue() + ",");
-				stack.push(node);
-				node = node.getLeft();
-			}
-			if (stack.size() > 0) {//
-				node = stack.pop();
-				node = node.getRight();
-			}
-		}
-		return list;
-	}
-
-	/**
 	 * 非递归中序遍历
 	 * 
 	 * @param node
@@ -164,80 +141,21 @@ public class Solution {
 	}
 
 	/**
-	 * 非递归中序遍历2
-	 * 
-	 * @param node
-	 * @return
-	 */
-	public List<Integer> inOrderNoRecursion2(Node<Integer> node) {
-		List<Integer> list = new ArrayList<Integer>();
-		Stack<Node> stack = new Stack<Node>();
-		while (node != null) {
-			while (node != null) {
-				if (node.getRight() != null)
-					stack.push(node.getRight());// 当前节点右子入栈
-				stack.push(node);// 当前节点入栈
-				node = node.getLeft();
-			}
-			node = stack.pop();
-			while (!stack.empty() && node.getRight() == null) {
-				System.out.println(node.getValue());
-				node = stack.pop();
-			}
-			System.out.println(node.getValue());
-			if (!stack.empty())
-				node = stack.pop();
-			else
-				node = null;
-		}
-		return null;// 暂时的
-	}
-
-	/**
 	 * 非递归后序遍历：当上一个访问的结点是右孩子或者当前结点没有右孩子则访问当前结点
 	 * 
 	 * @param node
 	 * @return
 	 */
-	public List<Integer> postOrderNoRecursion(Node<Integer> node) {
-		List<Integer> list = new ArrayList<Integer>();
-		Node<Integer> rNode = null;
-		Node<Integer> current = node;
-		LinkedList<Node<Integer>> stack = new LinkedList<Node<Integer>>();
-		while (current != null || !stack.isEmpty()) {
-			while (current != null) {
-				stack.push(current);
-				current = current.getLeft();
-			}
-			current = stack.pop();
-			while (current != null && (current.getRight() == null
-					|| current.getRight() == rNode)) {
-				System.out.print(current.getValue() + ",");
-				list.add(current.getValue());
-				rNode = current;
-				if (stack.isEmpty()) {
-					System.out.println();
-					return null;
-				}
-				current = stack.pop();
-			}
-			stack.push(current);
-			current = current.getRight();
-		}
-		return list;
-	}
-
-	/** 非递归实现后序遍历 */
-	protected static void iterativePostorder(Node p) {
-		Node q = p;
-		Stack<Node> stack = new Stack<Node>();
+	protected void postOrderNoRecursion(Node<Integer> p) {
+		Node<Integer> q = p;
+		Stack<Node<Integer>> stack = new Stack<Node<Integer>>();
 		while (p != null) {
 			// 左子树入栈
 			for (; p.getLeft() != null; p = p.getLeft())
 				stack.push(p);
 			// 当前节点无右子或右子已经输出
 			while (p != null && (p.getRight() == null || p.getRight() == q)) {
-				System.out.println(p.getValue());
+				System.out.print(p.getValue() + ",");
 				q = p;// 记录上一个已输出节点
 				if (stack.empty())
 					return;
@@ -249,88 +167,18 @@ public class Solution {
 		}
 	}
 
-	/** 非递归实现后序遍历 双栈法 */
-	protected static void iterativePostorder2(Node p) {
-		Stack<Node> lstack = new Stack<Node>();
-		Stack<Node> rstack = new Stack<Node>();
-		Node node = p, right;
-		do {
-			while (node != null) {
-				right = node.getRight();
-				lstack.push(node);
-				rstack.push(right);
-				node = node.getLeft();
-			}
-			node = lstack.pop();
-			right = rstack.pop();
-			if (right == null) {
-				System.out.println(p.getValue());
-			} else {
-				lstack.push(node);
-				rstack.push(null);
-			}
-			node = right;
-		} while (lstack.size() > 0 || rstack.size() > 0);
-	}
-
-	/** 非递归实现后序遍历 单栈法 */
-	protected static void iterativePostorder3(Node p) {
-		Stack<Node> stack = new Stack<Node>();
-		Node node = p, prev = p;
-		while (node != null || stack.size() > 0) {
-			while (node != null) {
-				stack.push(node);
-				node = node.getLeft();
-			}
-			if (stack.size() > 0) {
-				Node temp = stack.peek().getRight();
-				if (temp == null || temp == prev) {
-					node = stack.pop();
-					System.out.println(p.getValue());
-					prev = node;
-					node = null;
-				} else {
-					node = temp;
-				}
-			}
-
-		}
-	}
-
-	/** 非递归实现后序遍历4 双栈法 */
-	protected static void iterativePostorder4(Node p) {
-		Stack<Node> stack = new Stack<Node>();
-		Stack<Node> temp = new Stack<Node>();
-		Node node = p;
-		while (node != null || stack.size() > 0) {
-			while (node != null) {
-				temp.push(node);
-				stack.push(node);
-				node = node.getRight();
-			}
-			if (stack.size() > 0) {
-				node = stack.pop();
-				node = node.getLeft();
-			}
-		}
-		while (temp.size() > 0) {
-			node = temp.pop();
-			System.out.println(p.getValue());
-		}
-	}
-
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		s.root = new Node(1);
+		s.root = new Node<Integer>(1);
 		Node<Integer> n2 = new Node<Integer>(2);
-		Node n3 = new Node(3);
-		Node n4 = new Node(4);
-		Node n5 = new Node(5);
-		Node n6 = new Node(6);
-		Node n7 = new Node(7);
-		Node n8 = new Node(8);
-		Node n9 = new Node(9);
-		Node n10 = new Node(10);
+		Node<Integer> n3 = new Node<Integer>(3);
+		Node<Integer> n4 = new Node<Integer>(4);
+		Node<Integer> n5 = new Node<Integer>(5);
+		Node<Integer> n6 = new Node<Integer>(6);
+		Node<Integer> n7 = new Node<Integer>(7);
+		Node<Integer> n8 = new Node<Integer>(8);
+		Node<Integer> n9 = new Node<Integer>(9);
+		Node<Integer> n10 = new Node<Integer>(10);
 		s.root.setLeft(n2);
 		s.root.setRight(n3);
 		n2.setLeft(n4);
@@ -352,14 +200,15 @@ public class Solution {
 		System.out.print("树的后序递归遍历：");
 		s.postOrder(s.root);
 		System.out.println();
-		System.out.print("树的前序递归遍历：");
+		System.out.print("树的前序非递归遍历：");
 		s.preOrderNoRecursion(s.root);
 		System.out.println();
-		System.out.print("树的中序递归遍历：");
+		System.out.print("树的中序非递归遍历：");
 		s.inOrderNoRecursion(s.root);
 		System.out.println();
-		System.out.print("树的后序递归遍历：");
+		System.out.print("树的后序非递归遍历：");
 		s.postOrderNoRecursion(s.root);
+
 	}
 
 }
