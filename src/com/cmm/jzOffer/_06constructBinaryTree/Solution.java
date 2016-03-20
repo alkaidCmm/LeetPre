@@ -1,7 +1,11 @@
 package com.cmm.jzOffer._06constructBinaryTree;
 
-import java.awt.print.Printable;
-
+/**
+ * 通过前序和中序确定后序
+ * 
+ * @author cmm
+ *
+ */
 public class Solution {
 	public BinaryTreeNode constructBinaryTree(int preOrder[], int inOrder[]) {
 		BinaryTreeNode root = new BinaryTreeNode(preOrder[0]);
