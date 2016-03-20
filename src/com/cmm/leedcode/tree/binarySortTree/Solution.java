@@ -33,6 +33,13 @@ public class Solution {
 		return flag;
 	}
 
+	/**
+	 * 二叉排序树的插入
+	 * 
+	 * @param root
+	 * @param target
+	 * @return
+	 */
 	public int insert(BinaryTreeNode root, int target) {
 		if (root == null)// 表示由于根节点为空，未插入节点
 			return 0;
@@ -43,7 +50,7 @@ public class Solution {
 				root.setLeftChild(temp);
 				return 1;// 表示比较完成，插入左子树
 			} else
-				return insert(root.getLeftChild(), target);// 进入左子树继续准备插入
+				return insert(root.getLeftChild(), target);// 进入左子树继续准备插入,进入迭代过程
 
 		} else if (target > root.getValue()) {// 进入右子树
 			if (null == root.getRightChild()) {
@@ -53,8 +60,8 @@ public class Solution {
 				return 1;// 表示比较完成，插入右子树
 			} else
 				return insert(root.getRightChild(), target);// 进入右子树继续准备插入
-		}
-		return 0;
+		} else// 插入的节点与父节点相同
+			return 0;
 	}
 
 	/**
@@ -66,19 +73,19 @@ public class Solution {
 	 * @param target
 	 */
 	public void delete(BinaryTreeNode root, int target) {
-		if (root != null) {
-			if (target < root.getValue())
+		if (root != null) {// 根结点判空
+			if (target < root.getValue())// 目标值小于根节点值
 				delete(root.getLeftChild(), target);
 			else if (target > root.getValue())
 				delete(root.getRightChild(), target);
 			else if (null != root.getLeftChild()
-					&& null != root.getRightChild()) {// 要删除的节点有两个孩子，
+					&& null != root.getRightChild()) {// 要删除的节点有两个孩子，（节点找到了）
 				BinaryTreeNode min = root.getRightChild();
 				while (min.getLeftChild() != null)// 用在右子树中的最小项替换要删除的结点，然后删除掉该结点即可。
 					min = min.getLeftChild();
 				root.setValue(min.getValue());// 让右子树上的最小值节点去替换【当前】的根节点
-				delete(root.getRightChild(), min.getValue());// 删除替换后的根节点
-			} else {
+				delete(root.getRightChild(), min.getValue());// 删除替换后的根节点，这个根几点在原来根节点右子树中
+			} else {// 要删除的节点只有一个子节点（节点找到了）
 				if (null == root.getLeftChild()
 						&& null != root.getRightChild()) {// 左子树为空，右子树不为空
 
