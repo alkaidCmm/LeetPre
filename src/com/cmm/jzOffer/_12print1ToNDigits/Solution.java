@@ -3,7 +3,7 @@ package com.cmm.jzOffer._12print1ToNDigits;
 /**
  * 打印1到最大的N位数 题目：输入数字n，按顺序打印出从1到最大的n位十进制数，比如输入3，打印出1，2，3...999
  * 
- * @author cmm 这题有难度
+ * @author cmm 这题有难度，下次继续
  */
 public class Solution {
 	public static void printOneToNthDigits(int n) {

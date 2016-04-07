@@ -1,12 +1,11 @@
 package com.cmm.jzOffer._25isPath;
 
-import java.util.Currency;
 import java.util.Stack;
 
 import com.cmm.jzOffer._19mirrorofBinaryTree.BinaryTreeNode;
 
 /**
- * 二叉树中和为某一值得路径: 从树的根节点开始往下一直到叶结点所经过的结点形成的路径
+ * 二叉树中和为某一值得路径: 从树的根节点开始往下一直到叶结点所经过的结点形成的路径（根到叶子）
  * 
  * @author cmm
  *         思路：首先要想到的是通过遍历可以找到所有路径，按照先序遍历的思路，先将经过的左节点入栈，如果是进的是叶子节点，则判断和是否符合要求，
@@ -14,7 +13,7 @@ import com.cmm.jzOffer._19mirrorofBinaryTree.BinaryTreeNode;
  */
 public class Solution {
 	public void isPath(BinaryTreeNode root, int expectSum, int currentSum,
-			Stack<Integer> stack) {
+			Stack<Integer> stack) {// 这里stack是一个工具
 		if (root == null)
 			return;
 		stack.push(root.getValue());
@@ -22,7 +21,7 @@ public class Solution {
 		if (root.getLeft() == null && root.getRight() == null
 				&& currentSum == expectSum)
 			for (Integer e : stack)
-				System.out.print(e + ",");
+				System.out.println(e + ",");
 		if (root.getLeft() != null)
 			isPath(root.getLeft(), expectSum, currentSum, stack);
 		if (root.getRight() != null)
@@ -46,7 +45,7 @@ public class Solution {
 		b3.setRight(b7);
 		Solution s = new Solution();
 		Stack<Integer> stack = new Stack<Integer>();
-		s.isPath(b1, 14, 0, stack);
+		s.isPath(b1, 21, 0, stack);
 		System.out.println("over!");
 	}
 

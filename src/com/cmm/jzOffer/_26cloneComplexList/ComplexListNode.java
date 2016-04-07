@@ -3,9 +3,8 @@ package com.cmm.jzOffer._26cloneComplexList;
 public class ComplexListNode {
 	private int value;
 	private ComplexListNode next;
-	private ComplexListNode sibling;
+	private ComplexListNode sibling;// 指向任意节点
 
-	
 	public int getValue() {
 		return value;
 	}
