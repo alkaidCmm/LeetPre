@@ -2,17 +2,10 @@ package com.cmm.leedcode.sort;
 
 public class HeapSort {
 	private static int[] buildMaxHeap(int[] num) {
-		for (int i = (num.length - 2) / 2; i >= 0; i--) {
+		for (int i = (num.length - 2) / 2; i >= 0; i--) {//这里从第一个非叶子节点开始
 			adjustDownUp(num, i, num.length);
 		}
 		return num;
-	}
-
-	public static void toString(int[] array) {
-		for (int i : array) {
-			System.out.print(i + " ");
-		}
-		System.out.println();
 	}
 
 	private static void adjustDownUp(int[] num, int i, int length) {
@@ -43,11 +36,18 @@ public class HeapSort {
 	}
 
 	public static void main(String[] args) {
-		//87,45,78,32,17,65,53,9,122
+		// 87,45,78,32,17,65,53,9,122
 		int num[] = { 1, 4, 8, 5, 3, 9, 20, 6, 25, 7, 48 };
 		buildMaxHeap(num);
 		toString(num);
 		heapSort(num);
 		toString(num);
+	}
+
+	public static void toString(int[] array) {
+		for (int i : array) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
 	}
 }
