@@ -1,4 +1,4 @@
-package com.cmm.jzOffer._28sortString;
+package com.cmm.jzOffer._27sortString;
 
 /**
  * 题目：例如输入字符串abc，则打印由字符a,b,c所能排列出来的所有字符串：abc，abc,bac,bca,cab,cba
