@@ -32,7 +32,7 @@ public class Solution {
 	public static boolean isBalanced(BinaryTreeNode root) {
 		if (root == null)
 			return true;
-		int left = treeDepth(root.left);
+		int left = treeDepth(root.left);// 在这里每次都需要做重复的节点遍历
 		int right = treeDepth(root.right);
 		int diff = left - right;
 		if (diff > 1 || diff < -1)

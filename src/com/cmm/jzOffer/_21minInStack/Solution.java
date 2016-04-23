@@ -13,8 +13,8 @@ public class Solution {
 		swm.push(5);
 		swm.push(7);
 		System.out.println(swm.min());
-		swm.push(-1);
-		System.out.println(swm.min());
+//		swm.push(-1);
+//		System.out.println(swm.min());
 
 	}
 

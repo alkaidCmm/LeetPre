@@ -33,6 +33,8 @@ public class StackWithMin {
 
 	public int min() {
 		assert (stack.size() > 0 && stackHelp.size() > 0) : "必须两个栈都不为空";
+		System.out.println(stackHelp.size());
+		System.out.println(stackHelp);
 		return stackHelp.peek();
 	}
 
