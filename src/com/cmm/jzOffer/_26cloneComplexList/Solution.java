@@ -22,7 +22,6 @@ public class Solution {
 
 	// 复杂链表的复制，第二步：设置我们复制出来的链表上的结点的m_pSibling
 	public void connectSiblingNodes(ComplexListNode head) {
-		// ComplexListNode node=head;
 		while (head != null) {
 			ComplexListNode newHead = head.getNext();
 			if (head.getSibling() != null)

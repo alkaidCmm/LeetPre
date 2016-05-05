@@ -3,7 +3,8 @@ package com.cmm.jzOffer._24verifySquenceofBST;
 import java.util.Arrays;
 
 /**
- * 题目：输入一个整数数组，判定组成的二叉排序树（搜索树）的合法性
+ * 题目：输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则返回 true。否则返回
+ * false。假设输入的数组的任意两个数字都互不相同。
  * 
  * @author cmm 二叉查找树（Binary Search Tree），（又：二叉搜索树，二叉排序树）它或者是一棵空树，或者是具有下列性质的二叉树：
  *         若它的左子树不空，则左子树上所有结点的值均小于它的根结点的值； 若它的右子树不空，则右子树上所有结点的值均大于它的根结点的值；
@@ -18,7 +19,7 @@ public class Solution {
 	public boolean verifySquenceofBST(int[] nums) {
 		if (nums == null || nums.length == 0)
 			return false;
-		int root = nums[nums.length - 1];
+		int root = nums[nums.length - 1];// 根节点
 
 		int i = 0;
 		// 获得左子树边界
@@ -32,6 +33,8 @@ public class Solution {
 		// 重新构建左子树和右子树的新序列
 		int[] leftNums = Arrays.copyOfRange(nums, 0, i);// 第一个参数表示原始数组，第二个参数表示开始位置，第三个表示结束位置，左闭右开
 		int[] rightNums = Arrays.copyOfRange(nums, i, nums.length - 1);
+		System.out.println("leftNums。length=" + leftNums.length
+				+ ",rightNUm.size=" + rightNums.length);
 		boolean leftFlag = true;
 		boolean rightFlag = true;
 		if (leftNums.length > 0)

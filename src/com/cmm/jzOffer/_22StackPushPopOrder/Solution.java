@@ -38,7 +38,7 @@ public class Solution {
 				// 当栈非空时，若栈顶元素与出栈元素相同，则出栈
 				if (stackHelp.size() > 0 && stackHelp.peek() == popOrder[j]) {
 					stackHelp.pop();
-					j++;
+					j++;// 这里j作为出栈元素扫描的下标，如果相等，下标香向后移动
 				} else {// 若不同或者栈非空，则在入栈序列中继续添加
 					stackHelp.push(pushOrder[i]);
 					i++;

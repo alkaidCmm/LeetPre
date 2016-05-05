@@ -40,7 +40,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		String str = "abc";
+		String str = "abcdef";
 		char[] chs = str.toCharArray();
 		new Solution().permutation(chs, 0, chs.length);
 	}

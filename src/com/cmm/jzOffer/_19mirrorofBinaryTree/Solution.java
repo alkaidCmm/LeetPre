@@ -7,6 +7,11 @@ package com.cmm.jzOffer._19mirrorofBinaryTree;
  *
  */
 public class Solution {
+	/**
+	 * 输入一棵二叉树，该函数输出它的镜像
+	 * 
+	 * @param root
+	 */
 	public void mirrorRecursively(BinaryTreeNode root) {
 		if (root == null)// 头节点为空
 			return;

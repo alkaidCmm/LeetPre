@@ -19,10 +19,10 @@ public class StackWithMin {
 
 	public void push(int value) {
 		stack.push(value);
-		if (stackHelp.size() == 0 || stackHelp.peek() > value)
+		if (stackHelp.size() == 0 || stackHelp.peek() > value)// 如果新插入的值，小于辅助栈的值，则添加
 			stackHelp.push(value);
 		else
-			stackHelp.push(stackHelp.peek());
+			stackHelp.push(stackHelp.peek());// 否则，添加原来大小相等的元素
 	}
 
 	public int pop() {

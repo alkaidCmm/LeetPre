@@ -34,6 +34,22 @@ public class Solution {
 
 	}
 
+	/**
+	 * 递归，在反转当前节点之前先反转后续节点
+	 */
+	public static ListNode reverse(ListNode head) {
+		if (null == head || null == head.getNext()) {
+			return head;
+		}
+		ListNode reversedHead = reverse(head.getNext());
+		head.getNext().setNext(head);
+		head.setNext(null);
+		return reversedHead;
+	}
+
+	/**
+	 * 遍历，将当前节点的下一个节点缓存后更改当前节点指针，例如1->2->3->4->5
+	 */
 	public ListNode reverseList(ListNode head) {
 		ListNode reverseHead = null;// 保存反转后的新的链表的头节点
 		ListNode pNode = head;
@@ -43,8 +59,8 @@ public class Solution {
 			if (pNext != null)
 				reverseHead = pNode;
 			pNode.setNext(pPrev);
-			pPrev = pNode;
-			pNode = pNext;
+			pPrev = pNode;//让prev指向下一个节点pNode
+			pNode = pNext;//让pNode指向下一个节点pNext
 		}
 		return reverseHead;
 
