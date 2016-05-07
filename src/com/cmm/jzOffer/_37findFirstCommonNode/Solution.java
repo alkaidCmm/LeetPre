@@ -5,9 +5,6 @@ public class Solution {
 		int val;
 		ListNode next;
 
-		public ListNode() {
-		}
-
 		public ListNode(int val) {
 			this.val = val;
 		}
@@ -52,8 +49,8 @@ public class Solution {
 	private static void test1() {
 		// 第一个公共结点在链表中间
 		// 1 - 2 - 3 \
-		//           6 - 7
-		//    4 - 5 /
+		// 6 - 7
+		// 4 - 5 /
 		ListNode n1 = new ListNode(1);
 		ListNode n2 = new ListNode(2);
 		ListNode n3 = new ListNode(3);

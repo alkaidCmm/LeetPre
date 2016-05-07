@@ -8,7 +8,7 @@ public class Solution {
 		if (str == null || str.length() < 1)
 			throw new IllegalArgumentException("字符串不能为空");
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
-		for (int i = 0; i < str.length(); i++) {
+		for (int i = 0; i < str.length(); i++) {// 对所有字符出现次数进行计数
 			char c = str.charAt(i);
 			if (map.containsKey(c)) {// 修改值，作加一
 				int value = map.get(c);

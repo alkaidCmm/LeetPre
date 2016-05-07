@@ -17,8 +17,10 @@ public class Solution {
 				break;
 			}
 			mid = (low + high) / 2;
+			// 如果中间位置对应的值在前一个排好序的部分，将low设置为新的处理位置 
 			if (array[mid] >= array[low])
 				low = mid;
+			// 如果中间位置对应的值在后一个排好序的部分，将high设置为新的处理位置 
 			else if (array[mid] <= array[high])
 				high = mid;
 

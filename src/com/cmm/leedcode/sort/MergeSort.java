@@ -16,8 +16,8 @@ public class MergeSort {
 	private static void merge(int[] arr, int left, int middle, int right) {
 		int[] tmpArr = new int[arr.length];
 		int mid = middle + 1; // 右边的起始位置
-		int tmp = left;
-		int third = left;
+		int tmp = left;// 记录左下标值，方面把新数组tmpArr的值重新赋值给arr
+		int third = left;// 作为tmpArr数组的下标起始地址
 		while (left <= middle && mid <= right) {
 			// 从两个数组中选取较小的数放入中间数组
 			if (arr[left] <= arr[mid]) {
@@ -58,5 +58,33 @@ public class MergeSort {
 		// quickSort(num, 0, num.length - 1);
 		mergeSort(num, 0, num.length - 1);
 		printArray(num);
+	}
+
+	public static void mergeSort2(int[] num, int left, int right) {
+		if (left < right) {
+			int mid = (left + right) / 2;
+			mergeSort2(num, left, mid);
+			mergeSort2(num, mid + 1, right);
+			merge2(num, left, mid, right);
+		}
+	}
+
+	private static void merge2(int[] num, int left, int mid, int right) {
+		int helpArr[] = new int[num.length];
+		int rmid = mid + 1;
+		int helpId = left;
+		int initleft = left;
+		while (left <= mid && rmid < right) {
+			if (num[left] < num[rmid])
+				helpArr[helpId++] = num[left++];
+			else
+				helpArr[helpId++] = num[rmid++];
+		}
+		while (left <= mid)
+			helpArr[helpId++] = num[left++];
+		while (rmid <= right)
+			helpArr[helpId++] = num[rmid++];
+		while (initleft <= right)
+			num[initleft] = helpArr[initleft++];
 	}
 }

@@ -7,9 +7,6 @@ public class Solution {
 		private BinaryTreeNode right;
 		private BinaryTreeNode parent;
 
-		public BinaryTreeNode() {
-		}
-
 		public BinaryTreeNode(int val) {
 			this.val = val;
 		}

@@ -175,10 +175,10 @@ public class Solution {
 			newArray[count++] = array[l++];
 		while (r <= right)
 			newArray[count++] = array[r++];
-		for (int i = left, j = 0; i <= right; i++) {
+		for (int i = left, j = 0; i <= right; i++) { // 把新数组中的数覆盖nums数组
 			array[i] = newArray[j++];
 		}
-		// array = newArray;
+
 	}
 
 	/**

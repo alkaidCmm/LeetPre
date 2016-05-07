@@ -1,6 +1,7 @@
 package com.cmm.leedcode.tree.traversal;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -106,9 +107,9 @@ public class Solution {
 				current = Stack.pop();
 				list.add(current.getValue());
 				System.out.print(current.getValue() + ",");
-				if (current.getRight() != null)
+				if (current.getRight() != null)// 先把根节点的右子节点放入，
 					Stack.push(current.getRight());
-				if (current.getLeft() != null)
+				if (current.getLeft() != null)// 再放左子节点
 					Stack.push(current.getLeft());
 			}
 		}
@@ -153,7 +154,7 @@ public class Solution {
 			// 左子树入栈
 			for (; p.getLeft() != null; p = p.getLeft())
 				stack.push(p);
-			// 当前节点无右子或右子已经输出
+			// 当前节点无右子或右子已经输出（右子树为空，或者已经访问过了）
 			while (p != null && (p.getRight() == null || p.getRight() == q)) {
 				System.out.print(p.getValue() + ",");
 				q = p;// 记录上一个已输出节点
@@ -211,4 +212,62 @@ public class Solution {
 
 	}
 
+	public static void pre(Node<Integer> p) {
+		if (p != null) {
+			Stack<Node<Integer>> s = new Stack<Node<Integer>>();
+			s.push(p);
+			Node<Integer> cur = null;
+			while (!s.isEmpty()) {
+				cur = s.pop();
+				System.out.println(cur.getValue());
+				if (cur.getRight() != null)
+					s.push(cur.getRight());
+				if (cur.getLeft() != null)
+					s.push(cur.getLeft());
+			}
+		}
+	}
+
+	public static void in(Node<Integer> p) {
+		if (p != null) {
+			Node<Integer> cur = p;
+			Stack<Node<Integer>> s = new Stack<Node<Integer>>();
+			while (cur != null || !s.isEmpty()) {
+				while (cur != null) {
+					s.push(cur);
+					cur = cur.getLeft();
+				}
+				if (!s.isEmpty()) {
+					cur = s.pop();
+					System.out.println(cur.getValue());
+					cur = cur.getRight();
+				}
+			}
+		}
+	}
+
+	public static void post(Node<Integer> p) {
+		if (p != null) {
+			Node<Integer> q = p;
+			Stack<Node<Integer>> s = new Stack<Node<Integer>>();
+			while (p != null) {
+				for (; p.getLeft() != null; p = p.getLeft())
+					s.push(p).getLeft();
+				while (p != null
+						&& (p.getRight() == null || p.getRight() == q)) {
+					System.out.println(p.getValue());
+					q = p;
+					if (s.isEmpty())
+						return;
+					p = s.pop();
+				}
+				s.push(p);
+				p = p.getRight();
+			}
+		}
+	}
+	private void testHahsMap() {
+		HashMap map=new HashMap<>();
+
+	}
 }

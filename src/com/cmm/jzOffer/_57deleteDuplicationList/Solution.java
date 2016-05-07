@@ -24,6 +24,11 @@ public class Solution {
 		}
 	}
 
+	/**
+	 * 
+	 * @param head
+	 * @return
+	 */
 	public static ListNode deleteDuplicationList(ListNode head) {
 		if (head == null)
 			return null;

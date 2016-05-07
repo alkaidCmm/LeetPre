@@ -40,6 +40,12 @@ public class Solution {
 		return isBalanced(root.left) && isBalanced(root.right);
 	}
 
+	/**
+	 * 第二种方式：避免重复计算
+	 * 
+	 * @param root
+	 * @return
+	 */
 	public static boolean isBalanced2(BinaryTreeNode root) {
 		int[] depth = new int[1];
 		return isBalancedHelper(root, depth);
@@ -50,9 +56,9 @@ public class Solution {
 			depth[0] = 0;
 			return true;
 		}
-		int[] left = new int[1];
-		int[] right = new int[1];
-		if (isBalancedHelper(root.left, left)
+		int[] left = new int[1];// 保存左子树的深度
+		int[] right = new int[1];// 保存右子树的深度
+		if (isBalancedHelper(root.left, left)// 重叶子结点网上计算，可以避免重复
 				&& isBalancedHelper(root.right, right)) {
 			int diff = left[0] - right[0];
 			if (diff >= -1 && diff <= 1) {

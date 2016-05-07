@@ -30,8 +30,8 @@ public class Solution {
 				return false;
 			}
 			numberOfGap += (numbers[big] - numbers[small] - 1);// 求出相邻两个数值之间可以填补的数，比如4，7，中间缺5，6两个数
-			small = big;
-			big++;
+			small = big;// 左边标签右移
+			big++;// 右边标签右移
 		}
 		System.out.println(
 				"numberOfGap=" + numberOfGap + ",numberOfZero=" + numberOfZero);

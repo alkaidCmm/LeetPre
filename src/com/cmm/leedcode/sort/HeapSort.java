@@ -2,7 +2,7 @@ package com.cmm.leedcode.sort;
 
 public class HeapSort {
 	private static int[] buildMaxHeap(int[] num) {
-		for (int i = (num.length - 2) / 2; i >= 0; i--) {//这里从第一个非叶子节点开始
+		for (int i = (num.length - 2) / 2; i >= 0; i--) {// 这里从第一个非叶子节点开始
 			adjustDownUp(num, i, num.length);
 		}
 		return num;
@@ -10,7 +10,7 @@ public class HeapSort {
 
 	private static void adjustDownUp(int[] num, int i, int length) {
 		int cur = num[i];// 保存第一个非叶子结点的元素
-		for (int left = 2 * i + 1; left < length - 1; left = 2 * left + 1) {// i为初始化为节点k的左孩子，沿节点较大的子节点向下调整
+		for (int left = 2 * i + 1; left < length - 1; left = 2 * left + 1) {// i为初始化为节点k的左孩子，沿节点序号较大的子节点向下调整
 			if (left < length && num[left] < num[left + 1])//// 取节点较大的子节点的下标
 				left++;// 如果节点的右孩子>左孩子，则取右孩子节点的下标
 			if (cur >= num[left])// 根节点 >=左右子女中关键字较大者
@@ -30,7 +30,7 @@ public class HeapSort {
 			int temp = array[0]; // 将堆顶元素和堆低元素交换，即得到当前最大元素正确的排序位置
 			array[0] = array[i];
 			array[i] = temp;// 最后一个元素为最大值
-			adjustDownUp(array, 0, i); // 整理，将剩余的元素整理成堆
+			adjustDownUp(array, 0, i); // 整理，将剩余的元素整理成堆，这里第二个参数直接从第一个元素开始，因为除了第一个元素，整个还是满足大根堆
 		}
 		return array;
 	}

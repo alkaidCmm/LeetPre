@@ -49,10 +49,10 @@ public class Solution {
 		int big = 2;
 		int middle = (1 + sum) / 2;
 		int curSum = small + big;
-		while (small < middle) {
+		while (small < middle) {// 上界为最小值小于喝的一半
 			if (curSum == sum) {
 				List<Integer> list = new ArrayList<Integer>(2);// 避免默认大小10,没必要那么大
-				for (int i = small; i <=big; i++)
+				for (int i = small; i <= big; i++)
 					list.add(i);
 				result.add(list);
 			}
@@ -61,7 +61,7 @@ public class Solution {
 				small++;// 最小下标后移
 				if (curSum == sum) {
 					List<Integer> list = new ArrayList<Integer>(2);// 避免默认大小10,没必要那么大
-					for (int i = small; i <=big; i++)
+					for (int i = small; i <= big; i++)
 						list.add(i);
 					result.add(list);
 				}
@@ -71,25 +71,28 @@ public class Solution {
 		}
 		return result;
 	}
+
 	private static void test01() {
-        int[] data1 = {1, 2, 4, 7, 11, 15};
-        System.out.println(findNumbersWithSum(data1, 15));
-        int[] data2 = {1, 2, 4, 7, 11, 16};
-        System.out.println(findNumbersWithSum(data2, 17));
-        int[] data3 = {1, 2, 4, 7, 11, 16};
-        System.out.println(findNumbersWithSum(data3, 10));
-    }
-    public static void test02(){
-        System.out.println(findContinuousSequence(1));
-        System.out.println(findContinuousSequence(3));
-        System.out.println(findContinuousSequence(4));
-        System.out.println(findContinuousSequence(9));
-        System.out.println(findContinuousSequence(15));
-        System.out.println(findContinuousSequence(100));
-    }
+		int[] data1 = { 1, 2, 4, 7, 11, 15 };
+		System.out.println(findNumbersWithSum(data1, 15));
+		int[] data2 = { 1, 2, 4, 7, 11, 16 };
+		System.out.println(findNumbersWithSum(data2, 17));
+		int[] data3 = { 1, 2, 4, 7, 11, 16 };
+		System.out.println(findNumbersWithSum(data3, 10));
+	}
+
+	public static void test02() {
+		System.out.println(findContinuousSequence(1));
+		System.out.println(findContinuousSequence(3));
+		System.out.println(findContinuousSequence(4));
+		System.out.println(findContinuousSequence(9));
+		System.out.println(findContinuousSequence(15));
+		System.out.println(findContinuousSequence(100));
+	}
+
 	public static void main(String[] args) {
 		test01();
-        System.out.println("---------------");
-        test02();
+		System.out.println("---------------");
+		test02();
 	}
 }

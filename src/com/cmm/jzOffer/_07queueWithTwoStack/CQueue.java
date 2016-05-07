@@ -32,7 +32,9 @@ public class CQueue<T> {
 	 * stack1压入数据，stack2删除数据，当需要删除数据时，先把stack1的数据全部压入stack2，然后再从stack2的头部删除
 	 */
 	public T deleteHead() {
-		if (stack2.size() == 0) {
+		if (!stack2.empty())
+			return stack2.pop();
+		else {
 			if (stack1.size() == 0) {
 				try {
 					throw new Exception("队列为空");

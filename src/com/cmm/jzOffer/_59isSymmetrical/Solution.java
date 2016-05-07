@@ -49,10 +49,10 @@ public class Solution {
 		node.right = right;
 	}
 
-	//                1
-	//       2                2
-	//   4       6        6        4
-	// 8   9  10   11  11   10  9    8
+	// 1
+	// 2 2
+	// 4 6 6 4
+	// 8 9 10 11 11 10 9 8
 	public static void test01() {
 		BinaryTreeNode n1 = new BinaryTreeNode(1);
 		BinaryTreeNode n2 = new BinaryTreeNode(2);
@@ -87,10 +87,10 @@ public class Solution {
 		System.out.println(isSymmetrical(n1));
 	}
 
-//                            1
-//                  2                   2
-//             4         5          6          4
-//          8     9   10   11   11     10   9     8
+	// 1
+	// 2 2
+	// 4 5 6 4
+	// 8 9 10 11 11 10 9 8
 	public static void test02() {
 		BinaryTreeNode n1 = new BinaryTreeNode(1);
 		BinaryTreeNode n2 = new BinaryTreeNode(2);

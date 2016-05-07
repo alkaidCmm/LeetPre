@@ -1,15 +1,14 @@
 package com.cmm.jzOffer._38NumofKInArr;
 
 public class Solution {
-	//获取k第一次出现的位置
+	// 获取k第一次出现的位置
 	private static int getFirstK(int[] data, int k, int start, int end) {
-		if (data == null || data.length < 1 || start > end) {
+		if (data == null || data.length < 1 || start > end)
 			return -1;
-		}
 		int midIdx = start + (end - start) / 2;
 		int midData = data[midIdx];
 		if (midData == k) {
-			if (midIdx > 0 && data[midIdx - 1] != k || midIdx == 0) {//如果等于k的值刚好是第一个位置（最左边的值）
+			if (midIdx > 0 && data[midIdx - 1] != k || midIdx == 0) {// 如果等于k的值刚好是第一个位置（最左边的值）
 				return midIdx;
 			} else {
 				end = midIdx - 1;
@@ -30,7 +29,7 @@ public class Solution {
 		int midData = data[midIdx];
 		if (midData == k) {
 			if (midIdx + 1 < data.length && data[midIdx + 1] != k
-					|| midIdx == data.length - 1) {//如果等于k的值刚好是最后一个位置（最右边的值）
+					|| midIdx == data.length - 1) {// 如果等于k的值刚好是最后一个位置（最右边的值）
 				return midIdx;
 			} else {
 				start = midIdx + 1;

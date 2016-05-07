@@ -1,28 +1,6 @@
 package com.cmm.leedcode.sort;
 
 public class Solution2 {
-	/**
-	 * 希尔排序
-	 * 
-	 * @param num
-	 */
-	private static void shellSortDivsion(int[] num) {
-		int j = 0;
-		int current = 0;
-		for (int d = num.length/2; d > 0; d /= 2) {
-			for (int i = d; i < num.length; i++) {
-				current = num[i];
-				for (j = i; j >= d; j -= d) {
-					if (current < num[j - d]) {
-						//System.out.println(num[j - d] + "," + current);
-						num[j] = num[j - d];
-					} else
-						break;
-				}
-				num[j] = current;
-			}
-		}
-	}
 
 	/**
 	 * 快速排序
@@ -77,15 +55,6 @@ public class Solution2 {
 		}
 	}
 
-	public static void main(String[] args) {
-		int[] num = { 11, 36, 64, 9, 5, 8, 2, 21, 65, 43 };
-		printArray(num);
-		// quickSort(num, 0, num.length - 1);
-		//selectSort(num);
-		shellSortDivsion(num);
-		printArray(num);
-	}
-
 	/**
 	 * 打印
 	 * 
@@ -100,5 +69,57 @@ public class Solution2 {
 			}
 		}
 		System.out.println("}");
+	}
+
+	public static int[] select(int num[]) {
+		int i = 0;
+		int j = 0;
+		for (i = 0; i < num.length - 1; i++) {
+			int minId = i;
+			for (j = i; j < num.length - i; j++)
+				if (num[minId] > num[j])
+					minId = j;
+			if (minId != i) {
+				int temp = num[minId];
+				num[minId] = num[i];
+				num[i] = temp;
+			}
+		}
+		return num;
+	}
+
+	/**
+	 * 堆排序
+	 */
+	public static int[] buildMaxHeap(int[] num) {
+		for (int i = (num.length - 2) / 2; i >= 0; i--)
+			adjustFromupToDown(num, i, num.length);
+		return num;
+	}
+
+	private static void adjustFromupToDown(int[] num, int i, int length) {
+		int cur = num[i];
+		for (int left = 2 * i + 1; left < num.length - 1; left = left * 2 + 1) {
+			if (num[left] < num[left + 1])
+				left++;
+			if (cur > num[left])
+				break;
+			else {
+				num[i] = num[left];
+				i = left;
+			}
+		}
+		num[i] = cur;
+	}
+
+	public static int[] heap(int[] num) {
+		num = buildMaxHeap(num);
+		for (int i = num.length - 1; i >= 0; i--) {
+			int temp = num[0];
+			num[0] = num[i];
+			num[i] = temp;
+			adjustFromupToDown(num, 0, i);
+		}
+		return num;
 	}
 }
