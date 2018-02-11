@@ -1,4 +1,4 @@
-package com.cmm.leedcode._448findDisappearedNum;
+package com.cmm.leedcode.array._448findDisappearedNum;
 
 import java.util.ArrayList;
 import java.util.List;
