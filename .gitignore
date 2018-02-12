@@ -24,3 +24,8 @@ hs_err_pid*
 /bin/
 /.settings
 ／out/
+.DS_Store
+out/
+src/.DS_Store
+src/com/.DS_Store
+src/com/cmm/.DS_Store
