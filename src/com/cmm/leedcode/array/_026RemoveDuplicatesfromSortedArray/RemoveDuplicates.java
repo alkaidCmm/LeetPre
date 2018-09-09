@@ -1,4 +1,4 @@
-package com.cmm.leedcode.removeDuplicates;
+package com.cmm.leedcode.array._026RemoveDuplicatesfromSortedArray;
 
 /**
  * Given a sorted array, remove the duplicates in place such that each element

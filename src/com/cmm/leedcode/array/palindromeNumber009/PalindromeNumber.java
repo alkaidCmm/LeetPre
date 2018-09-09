@@ -8,9 +8,10 @@ package com.cmm.leedcode.array.palindromeNumber009;
  */
 public class PalindromeNumber {
     public boolean isPalindromeNumber(int num) {
+        // 对于负数，不会出现回文
         if (num < 0) {
             return false;
-        } // 对于负数，不会出现回文
+        }
         // 计算整数位数
         int x = 1;
         while (num / x > 10) {
