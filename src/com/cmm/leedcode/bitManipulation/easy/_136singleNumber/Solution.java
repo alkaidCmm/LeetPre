@@ -35,8 +35,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution s=new Solution();
-        int A[]={1,2,2,3,3,4,4};
+        Solution s = new Solution();
+        int A[] = {1, 2, 2, 3, 3, 4, 4};
+
         s.singleNumber(A);
     }
 }

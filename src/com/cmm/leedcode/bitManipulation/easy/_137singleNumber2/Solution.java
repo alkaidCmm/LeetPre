@@ -10,4 +10,5 @@ package com.cmm.leedcode.bitManipulation.easy._137singleNumber2;
  * Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
  */
 public class Solution {
+// TODO: 2018/9/10 位运算不熟悉 
 }

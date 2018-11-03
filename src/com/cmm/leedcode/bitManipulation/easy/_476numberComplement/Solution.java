@@ -13,7 +13,6 @@ public class Solution {
             i += Math.pow(2, j);
             j++;
         }
-
         return i - num;
     }
 
