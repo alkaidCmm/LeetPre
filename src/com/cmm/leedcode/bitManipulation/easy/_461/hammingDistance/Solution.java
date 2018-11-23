@@ -15,4 +15,9 @@ public class Solution {
     public int hammingDistance(int x, int y) {
         return Integer.bitCount(x ^ y);
     }
+
+    public static void main(String[] args) {
+        Solution s=new Solution();
+        System.out.println(s.hammingDistance(1,4));
+    }
 }

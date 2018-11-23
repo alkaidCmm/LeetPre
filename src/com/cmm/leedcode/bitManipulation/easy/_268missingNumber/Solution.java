@@ -28,6 +28,7 @@ public class Solution {
      * @param nums
      * @return
      */
+
     public int missingNumber(int[] nums) {
         int xor = 0, i = 0;
         // 0与任何数异或都是那个数本身
