@@ -1,6 +1,6 @@
 package com.cmm.leedcode.linkedlist.easy._021mergetwolists;
 
-import com.cmm.leedcode.linkedlist.easy.ListNode;
+import com.cmm.leedcode.linkedlist.ListNode;
 
 public class Solution {
 

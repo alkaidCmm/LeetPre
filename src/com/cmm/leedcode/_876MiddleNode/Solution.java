@@ -19,7 +19,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-//        Solution s = new Solution();
+//        MyLinkedList s = new MyLinkedList();
 //        ListNode n1 = new ListNode(1);
 //        ListNode n2 = new ListNode(2);
 //        ListNode n3 = new ListNode(3);

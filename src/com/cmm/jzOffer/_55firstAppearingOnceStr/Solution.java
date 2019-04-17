@@ -38,7 +38,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		//System.out.println(new Solution().firstAppearOnceStr("")); // '\0'
+		//System.out.println(new MyLinkedList().firstAppearOnceStr("")); // '\0'
 		System.out.println(new Solution().firstAppearOnceStr("g")); // 'g'
 		System.out.println(new Solution().firstAppearOnceStr("go")); // 'g'
 		System.out.println(new Solution().firstAppearOnceStr("goo")); // 'g'

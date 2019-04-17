@@ -10,6 +10,15 @@ import java.util.Stack;
 public class StackWithMin {
 	private Stack<Integer> stack;
 	private Stack<Integer> stackHelp;// 辅助栈，方便存储当前情况下栈中最小的元素
+	boolean isScuess;
+
+	public boolean isScuess() {
+		return isScuess;
+	}
+
+	public void setScuess(boolean scuess) {
+		isScuess = scuess;
+	}
 
 	public StackWithMin() {
 		super();

@@ -1,6 +1,6 @@
 package com.cmm.leedcode.linkedlist.easy._876middleoflinkedlist;
 
-import com.cmm.leedcode.linkedlist.easy.ListNode;
+import com.cmm.leedcode.linkedlist.ListNode;
 
 /**
  * @Author: cmm

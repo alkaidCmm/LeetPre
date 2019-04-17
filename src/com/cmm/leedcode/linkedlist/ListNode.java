@@ -1,4 +1,4 @@
-package com.cmm.leedcode.linkedlist.easy;
+package com.cmm.leedcode.linkedlist;
 
 /**
  * @Author: cmm

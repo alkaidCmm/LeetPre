@@ -1,6 +1,6 @@
 package com.cmm.leedcode.linkedlist.easy._234ispalindrome;
 
-import com.cmm.leedcode.linkedlist.easy.ListNode;
+import com.cmm.leedcode.linkedlist.ListNode;
 
 /**
  * @Author: cmm
@@ -21,38 +21,53 @@ import com.cmm.leedcode.linkedlist.easy.ListNode;
  */
 public class Solution {
     public boolean isPalindrome(ListNode head) {
-        if (head == null) {
-            return true;
-        }
-        ListNode p1 = head;
-        ListNode p2 = head;
-        ListNode p3 = p1.next;
-        ListNode pre = p1;
-        // TODO: 2018/11/19 理解难受，继续呀
-
-        //find mid pointer, and reverse head half part
-        while (p2.next != null && p2.next.next != null) {
-            p2 = p2.next.next;
-            pre = p1;
-            p1 = p3;
-            p3 = p3.next;
-            p1.next = pre;
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
 
-        //odd number of elements, need left move p1 one step
-        if (p2.next == null) {
-            p1 = p1.next;
-        } else {   //even number of elements, do nothing
-
+        /**
+         *如果是奇数条
+         */
+        if (fast != null) {
+            slow = slow.next;
         }
-        //compare from mid to head/tail
-        while (p3 != null) {
-            if (p1.val != p3.val) {
+        slow = reverse(slow);
+        fast = head;
+        while (slow != null) {
+            if (fast.val != slow.val) {
                 return false;
             }
-            p1 = p1.next;
-            p3 = p3.next;
+            fast = fast.next;
+            slow = slow.next;
         }
         return true;
+    }
+
+    public ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2);
+        ListNode l3 = new ListNode(3);
+        ListNode l4 = new ListNode(2);
+        ListNode l5 = new ListNode(1);
+
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
+        Solution s = new Solution();
+        s.isPalindrome(l1);
     }
 }

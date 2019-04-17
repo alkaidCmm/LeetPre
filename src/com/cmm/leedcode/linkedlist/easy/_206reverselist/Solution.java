@@ -1,6 +1,6 @@
 package com.cmm.leedcode.linkedlist.easy._206reverselist;
 
-import com.cmm.leedcode.linkedlist.easy.ListNode;
+import com.cmm.leedcode.linkedlist.ListNode;
 
 /**
  * @Author: cmm
