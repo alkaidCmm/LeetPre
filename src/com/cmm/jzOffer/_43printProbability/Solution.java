@@ -1,5 +1,8 @@
 package com.cmm.jzOffer._43printProbability;
 
+/**
+ * @author cmm
+ */
 public class Solution {
 	/**
 	 * 基于通归求解，时间效率不够高。

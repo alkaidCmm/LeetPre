@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/fuckalgor/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/fuckalgor/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/fuckalgor/MaxStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_066plusone/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_105buildBinaryTreeFromPreINOrder/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_1470/shufflearray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_371getSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_42trappingRainWater/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_043multiply/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_067addBinary/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_415addstring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/jzOffer/_43printProbability/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/jzOffer/_43printProbability/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_004medianofTwoSortedArrays/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_004medianofTwoSortedArrays/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/__219ContainsDuplicateII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_219ContainsDuplicateII/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_020validParentheses/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_020validParentheses/Solution.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +42,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ACM" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,24 +49,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>remove</find>
-      <find>Reverse</find>
-      <find>Palindrome</find>
-      <find>57</find>
-      <find>ugly</find>
-      <find>Max</find>
-      <find>83</find>
-      <find>palindrome</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>max</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1TK4c80IJeGI54ONzlYNZDrGPIc" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -261,6 +262,13 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="deleteD&#9;PSI&#9;JAVA://com.cmm.jzOffer._57deleteDuplicationList.Solution#deleteDuplicationList&#10;merge&#9;PSI&#9;JAVA://com.cmm.leedcode.mergeTwoLists021.MergeTwoLists&#10;two&#9;PSI&#9;JAVA://com.cmm.leedcode.twosum001.TwoSum&#10;Power&#9;FILE&#9;file:///Users/cmm/Idea_Space/ACM/src/com/cmm/jzOffer/_11power&#10;dupl&#9;PSI&#9;JAVA://com.cmm.leedcode.removeDuplicates.RemoveDuplicates&#10;pal&#9;PSI&#9;JAVA://com.cmm.leedcode.palindromeNumber009.PalindromeNumber&#10;rever&#9;PSI&#9;JAVA://com.cmm.leedcode.reverseInteger007.ReverseInteger" />
@@ -270,25 +278,19 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-framework" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.MaxStack">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -396,33 +398,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.linkedlist.medium._002addtwonumbers.AddTwoNumbers" />
-      <module name="ACM" />
+    <configuration name="MaxStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.fuckalgor.MaxStack" />
+      <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.linkedlist.medium._002addtwonumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.array._026RemoveDuplicatesfromSortedArray.RemoveDuplicates" />
-      <module name="ACM" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.array._026RemoveDuplicatesfromSortedArray.*" />
+          <option name="PATTERN" value="com.cmm.fuckalgor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,8 +413,22 @@
       </method>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.array._415addstring.Solution" />
+      <module name="LeetPre" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmm.leedcode.array._415addstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.stack.easy._020validParentheses.Solution" />
-      <module name="ACM" />
+      <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -444,13 +440,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.linkedlist.medium._024swapPairs.Solution" />
-      <module name="ACM" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.string._067addBinary.Solution" />
+      <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.linkedlist.medium._024swapPairs.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.string._067addBinary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.array._1470.shufflearray.Solution" />
+      <module name="LeetPre" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmm.leedcode.array._1470.shufflearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,7 +470,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.linkedlist.easy._021mergetwolists.Solution" />
-      <module name="ACM" />
+      <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -482,6 +492,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -523,10 +534,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.MaxStack" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -578,6 +590,19 @@
       <workItem from="1546749226407" duration="7553000" />
       <workItem from="1554700857488" duration="1417000" />
       <workItem from="1555479448289" duration="240000" />
+      <workItem from="1573195530643" duration="828000" />
+      <workItem from="1573975079965" duration="2731000" />
+      <workItem from="1573979066994" duration="27813000" />
+      <workItem from="1574568915451" duration="7319000" />
+      <workItem from="1574689437314" duration="1737000" />
+      <workItem from="1574760372245" duration="1209000" />
+      <workItem from="1574825040768" duration="1386000" />
+      <workItem from="1575853968283" duration="1200000" />
+      <workItem from="1577346546323" duration="2439000" />
+      <workItem from="1591893537778" duration="6149000" />
+      <workItem from="1591941361352" duration="10154000" />
+      <workItem from="1592109769638" duration="4078000" />
+      <workItem from="1592200547393" duration="1434000" />
     </task>
     <servers />
   </component>
@@ -591,7 +616,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -603,6 +628,70 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1591933779271">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="510" y="-806" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1591922976088" />
+    <state x="580" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591933779271" />
+    <state x="483" y="86" key="#xdebugger.evaluate" timestamp="1591953217737">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="483" y="86" key="#xdebugger.evaluate/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953217737" />
+    <state width="440" height="618" key="DebuggerActiveHint" timestamp="1591950989167">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="440" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591950989167" />
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom" timestamp="1591953229572">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229572" />
+    <state width="1878" height="294" key="GridCell.Tab.0.bottom/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002290" />
+    <state width="1398" height="294" key="GridCell.Tab.0.center" timestamp="1591953229571">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229571" />
+    <state width="1878" height="294" key="GridCell.Tab.0.center/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002288" />
+    <state width="1398" height="294" key="GridCell.Tab.0.left" timestamp="1591953229570">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229570" />
+    <state width="1878" height="294" key="GridCell.Tab.0.left/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002287" />
+    <state width="1398" height="294" key="GridCell.Tab.0.right" timestamp="1591953229571">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229571" />
+    <state width="1878" height="294" key="GridCell.Tab.0.right/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002289" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1591953229815">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229815" />
+    <state width="1878" height="294" key="GridCell.Tab.1.bottom/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002523" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1591953229814">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229814" />
+    <state width="1878" height="294" key="GridCell.Tab.1.center/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002522" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1591953229814">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229814" />
+    <state width="1878" height="294" key="GridCell.Tab.1.left/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002520" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1591953229815">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1591953229815" />
+    <state width="1878" height="294" key="GridCell.Tab.1.right/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1591896002523" />
+    <state x="208" y="43" key="SettingsEditor" timestamp="1592207113290">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1592207113290" />
+    <state x="362" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1591926106044">
+      <screen x="-263" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="362" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1591926106044" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,7 +762,7 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/__219ContainsDuplicateII/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_219ContainsDuplicateII/Solution.java</url>
           <line>10</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -944,23 +1033,88 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_020validParentheses/Solution.java</url>
-          <line>19</line>
+          <line>25</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_004medianofTwoSortedArrays/Solution.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_004medianofTwoSortedArrays/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_043multiply/Solution.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_043multiply/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_066plusone/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_066plusone/Solution.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_415addstring/Solution.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_415addstring/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_067addBinary/Solution.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_1470/shufflearray/Solution.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/fuckalgor/MaxStack.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/fuckalgor/MaxStack.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/fuckalgor/MaxStack.java</url>
           <line>32</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="149" />
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -977,54 +1131,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>list</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>a != b</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>~2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>~1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>~3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>xor &amp; ~(xor - 1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>~(xor-1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>~(xor)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.cmm.leedcode.array.__219ContainsDuplicateII;
+package com.cmm.leedcode.array._219ContainsDuplicateII;
 
 /**
  * Created by cmm on 2016/12/28.

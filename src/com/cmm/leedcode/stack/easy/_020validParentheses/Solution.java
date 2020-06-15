@@ -15,6 +15,12 @@ import java.util.Stack;
  * @author cmm
  */
 public class Solution {
+    /**
+     * 同类型括号必须同时出现，使用栈模拟
+     *
+     * @param s
+     * @return
+     */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         for (char c : s.toCharArray()) {
@@ -31,9 +37,19 @@ public class Solution {
         return stack.isEmpty();
     }
 
+    public boolean isValid2(String s){
+        int length;
+        do{
+            length=s.length();
+            s=s.replace("()","").replace("[]","").replace("{}","");
+        }while(length!=s.length());
+        return length==0;
+    }
+
+
     public static void main(String[] args) {
-        String str="((]{)[)}";
-        Solution s=new Solution();
+        String str = "((]{)[)}";
+        Solution s = new Solution();
         s.isValid(str);
     }
 

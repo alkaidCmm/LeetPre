@@ -20,6 +20,7 @@ public class AddTwoNumbers {
         ListNode cur = ret;
         int sum = 0;
         while (l1 != null || l2 != null) {
+            // 保证下一轮求和大于10，/10取整
             sum /= 10;
             if (l1 != null) {
                 sum += l1.val;
@@ -29,11 +30,11 @@ public class AddTwoNumbers {
                 sum += l2.val;
                 l2 = l2.next;
             }
-            //这里即为结果值
+            // 保证填充到位置的数字>10,则%10求余数
             cur.next = new ListNode(sum % 10);
             cur = cur.next;
         }
-        //将结果保存在单向链表中
+        //判断最后一位数字之和>10,则/10取整；
         if (sum / 10 == 1) {
             cur.next = new ListNode(1);
         }
@@ -61,5 +62,6 @@ public class AddTwoNumbers {
         l22.next = l23;
         l23.next = l24;
         ListNode ln = atn.addTwoNumbers(l1, l2);
+        System.out.println(ln);
     }
 }
