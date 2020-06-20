@@ -11,6 +11,10 @@ public class BST {
     class TreeNode {
         int val;
         TreeNode left, right;
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
     }
 
     /**
@@ -70,6 +74,7 @@ public class BST {
     }
 
     /**
+     * 判定是否是二叉平衡树
      * root 需要做的不只是和左右子节点比较，而是要整个左子树和右子树所有节点比较
      *
      * @param root
@@ -89,6 +94,74 @@ public class BST {
         }
         return isValidBST(root.left, min, root)
                 && isValidBST(root.right, root, max);
+    }
+
+    boolean isInBST(TreeNode root, int target) {
+        if (root == null) {
+            return false;
+        }
+        if (root.val == target) {
+            return true;
+        }
+        return isInBST(root.left, target) || isInBST(root.right, target);
+    }
+
+    boolean isInBST2(TreeNode root, int target) {
+        if (root == null) {
+            return false;
+        }
+        if (root.val == target) {
+            return true;
+        }
+        if (root.val < target) {
+            return isInBST2(root.right, target);
+        }
+        return isInBST2(root.left, target);
+    }
+
+    TreeNode insertIntoBST(TreeNode root, int val) {
+        if (root == null) {
+            return new TreeNode(val);
+        }
+        if (root.val < val) {
+            root.right = insertIntoBST(root.right, val);
+        }
+        if (root.val > val) {
+            root.left = insertIntoBST(root.left, val);
+        }
+        return root;
+
+    }
+
+    TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null) {
+            return null;
+        }
+        if (root.val == key) {
+            // 左节点
+            if (root.left == null) {
+                return root.right;
+            }
+            if (root.right == null) {
+                return root.left;
+            }
+            TreeNode minNode = getMin(root.right);
+            root.val = minNode.val;
+            root.right = deleteNode(root.right, minNode.val);
+        } else if (root.val > key) {
+            root.left = deleteNode(root.left, key);
+        } else {
+            root.right = deleteNode(root.right, key);
+        }
+        return root;
+
+    }
+
+    private TreeNode getMin(TreeNode node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
     }
 
 
