@@ -33,7 +33,12 @@ public class Solution {
 
         int ret = 0;
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+//            if (!map.containsKey(num)) {
+//                map.put(num, 1);
+//            } else {
+//                map.put(num, map.get(num) + 1);
+//            }
+//            map.put(num, map.getOrDefault(num, 0) + 1);
             if (map.get(num) > nums.length / 2) {
                 ret = num;
                 break;
@@ -64,6 +69,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
+        Solution s = new Solution();
+        int[] nums = new int[]{2, 1, 2, 1, 2, 1, 2};
+        int ret = s.majorityElement3(nums);
     }
 }
