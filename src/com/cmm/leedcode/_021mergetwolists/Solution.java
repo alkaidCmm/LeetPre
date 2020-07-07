@@ -1,4 +1,4 @@
-package com.cmm.leedcode.linkedlist.easy._021mergetwolists;
+package com.cmm.leedcode._021mergetwolists;
 
 import com.cmm.leedcode.linkedlist.ListNode;
 

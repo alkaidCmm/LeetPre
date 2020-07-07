@@ -1,4 +1,4 @@
-package com.cmm.leedcode.linkedlist.easy._237deletenodelinkedlist;
+package com.cmm.leedcode._237deletenodelinkedlist;
 
 import com.cmm.leedcode.linkedlist.ListNode;
 

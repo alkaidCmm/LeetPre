@@ -1,4 +1,4 @@
-package com.cmm.leedcode.number._202happyNumber;
+package com.cmm.leedcode._202happyNumber;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -21,22 +21,20 @@ import java.util.Set;
  */
 public class Solution {
     public boolean isHappy(int n) {
-        Set<Integer> existed = new HashSet<>();
-        while (true) {
-            int sum = 0;
-            while (n > 0) {
-                int digit = n % 10;
-                sum = digit * digit;
+        Set<Integer> set = new HashSet<>();
+        set.add(n);
+        while (n != 1) {
+            int result = 0;
+            while (n != 0) {
+                result += Math.pow(n % 10, 2);
                 n /= 10;
             }
-            // 如果右边的数出现重复的数，但是不是1，说明会无限循环下去
-            if (existed.contains(sum)) {
-                return sum == 1;
-            } else {
-                existed.add(sum);
-                n = sum;
+            if (set.contains(result)) {
+                return false;
             }
-
+            set.add(result);
+            n = result;
         }
+        return true;
     }
 }
