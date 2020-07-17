@@ -1,4 +1,4 @@
-package com.cmm.leedcode._033searchForRange;
+package com.cmm.leedcode.binarysearch.medium._034searchForRange;
 
 /**
  * Given a sorted array of integers, find the starting and ending position of a
@@ -20,32 +20,13 @@ public class Solution2 {
 		res[1] = upperbound(A, target);
 		return res;
 	}
-
-	public static int upperbound(int[] num, int target) {// 上限
-		// find last 2,
-		int low = 0;
-		int high = num.length - 1;
-		int mid = low + (high - low + 1) / 2;
-
-		while (low < high) {
-			mid = low + (high - low + 1) / 2;
-			if (num[mid] <= target) {
-				low = mid;
-			} else {
-				high = mid - 1;
-			}
-		}
-		return num[low] == target ? low : -1;
-	}
-
 	public static int lowerbound(int[] num, int target) {// 下限
 		// find first 2.
 		int low = 0;
 		int high = num.length - 1;
-		int mid = low + (high - low) / 2;
 
 		while (low < high) {
-			mid = low + (high - low) / 2;
+			int mid = low + (high - low) / 2;
 			if (num[mid] >= target) {
 				high = mid;
 			} else {
@@ -53,6 +34,22 @@ public class Solution2 {
 			}
 		}
 		return num[high] == target ? high : -1;
+	}
+
+	public static int upperbound(int[] num, int target) {// 上限
+		// find last 2,
+		int low = 0;
+		int high = num.length - 1;
+
+		while (low < high) {
+			int mid = low + (high - low + 1) / 2;
+			if (num[mid] <= target) {
+				low = mid;
+			} else {
+				high = mid - 1;
+			}
+		}
+		return num[low] == target ? low : -1;
 	}
 
 	public static void main(String[] args) {

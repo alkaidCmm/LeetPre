@@ -1,4 +1,4 @@
-package com.cmm.leedcode._350intersect;
+package com.cmm.leedcode.binarysearch.easy._350intersect;
 
 import java.util.Arrays;
 

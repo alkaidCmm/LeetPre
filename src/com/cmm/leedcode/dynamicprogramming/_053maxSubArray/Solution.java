@@ -1,4 +1,4 @@
-package com.cmm.leedcode._053maxSubArray;
+package com.cmm.leedcode.dynamicprogramming._053maxSubArray;
 
 /**
  * @author cmm

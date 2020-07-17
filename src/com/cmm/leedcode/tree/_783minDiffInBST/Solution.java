@@ -17,11 +17,11 @@ import com.cmm.leedcode.tree.TreeNode;
  * <p>
  * The given tree [4,2,6,1,3,null,null] is represented by the following diagram:
  * <p>
- * 4
- * /   \
- * 2      6
- * / \
- * 1   3
+ *     4
+ *    / \
+ *   2    6
+ *  / \
+ * 1  3
  * <p>
  * while the minimum difference in this tree is 1, it occurs between node 1 and node 2, also between node 3 and node 2.
  * Note:

@@ -4,6 +4,7 @@ import com.cmm.leedcode.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author cmm
@@ -23,30 +24,28 @@ import java.util.List;
  * [9,20],
  * [3]
  * ]
- *
+ * <p>
  * 层序遍历并存入list
  */
 public class Solution {
 
-    // todo
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        // todo
         List<List<Integer>> ret = new ArrayList<>();
         if (root == null) {
             return ret;
         }
+        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> storeStack = new Stack<>();
+        stack.add(root);
+        while (!stack.isEmpty()) {
+            TreeNode curTreeNode = stack.pop();
+            if (curTreeNode.left != null) {
+                stack.push(curTreeNode.left);
+            }
+        }
         return ret;
     }
 
-    public void addLevel(TreeNode root, List<List<Integer>> ret, int level) {
-        if (root == null) {
-            return;
-        }
-        if (ret.size() > level) {
-            ret.add(0,new ArrayList<>());
-        }
-
-
-
-    }
 }
 

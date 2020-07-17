@@ -1,4 +1,4 @@
-package com.cmm.leedcode._034searchInsertPosition;
+package com.cmm.leedcode.binarysearch.easy._034searchInsertPosition;
 
 /**
  * Given a sorted array and a target value, return the index if the target is
@@ -19,9 +19,8 @@ public class Solution {
 			return -1;
 		int low = 0;
 		int high = nums.length - 1;
-		int mid = -1;
 		while (low <= high) {
-			mid = (high + low) / 2;
+			int mid = (high + low) / 2;
 			if (nums[mid] < target)// 当出现target与nums中的数相等时，位置指向其左边
 				low = mid + 1;
 			else
