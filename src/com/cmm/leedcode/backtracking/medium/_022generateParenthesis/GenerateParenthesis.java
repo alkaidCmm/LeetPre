@@ -1,4 +1,4 @@
-package com.cmm.leedcode._022generateParenthesis;
+package com.cmm.leedcode.backtracking.medium._022generateParenthesis;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,11 +39,14 @@ public class GenerateParenthesis {
 			dfs(result, temp + ")", left, right - 1);
 	}
 
+
+	public List<String> generateParenthesis2(int n) {
+		List<String> res = new ArrayList<String>();
+		getParenthesis2(n, 0, 0, "", res);
+		return res;
+	}
 	/**
 	 * 方法二：总括号之和不大于2*n,左括号个数多于右括号时才可以加入右括号，递归实现
-	 * 
-	 * 
-	 * @param args
 	 */
 	public static void getParenthesis2(int n, int left, int right, String bf,
 			List<String> res) {
@@ -55,20 +58,11 @@ public class GenerateParenthesis {
 				res.add(bf);
 			return;
 		}
-		/*
-		 * if(left==n&&right==n){ res.add(bf); return; }
-		 */
 
 		getParenthesis2(n, left + 1, right, bf + "(", res);
 		// System.out.println("left=" + left);
 		getParenthesis2(n, left, right + 1, bf + ")", res);
 		// System.out.println("left=" + left);
-	}
-
-	public List<String> generateParenthesis2(int n) {
-		List<String> res = new ArrayList<String>();
-		getParenthesis2(n, 0, 0, "", res);
-		return res;
 	}
 
 	/*
@@ -97,11 +91,8 @@ public class GenerateParenthesis {
 					System.out.println("(" + inner.get(j) + ")" + outter.get(k));
 				}
 			}
-
 		}
-
 		return result;
-
 	}
 
 	public static void main(String[] args) {
