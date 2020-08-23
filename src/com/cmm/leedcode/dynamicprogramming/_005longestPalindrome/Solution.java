@@ -3,7 +3,7 @@ package com.cmm.leedcode.dynamicprogramming._005longestPalindrome;
 /**
  * @author cmm
  * @date 2020/7/21 12:07 AM
- * @desc 最长回文字串：正着和反着是一样的字符串
+ * @desc 最长回文字串：正着和反着是一样的字符串 (可以不连续)
  * Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
  * <p>
  * Example 1:
@@ -39,11 +39,11 @@ public class Solution {
             right++;
         }
         // 返回以 s[left] 和 s[right] 为中心的最长回文串
-        return s.substring(left + 1, right  );
+        return s.substring(left + 1, right);
     }
 
     public static void main(String[] args) {
-        String s="babad";
+        String s = "babad";
         new Solution().longestPalindrome(s);
     }
 }
