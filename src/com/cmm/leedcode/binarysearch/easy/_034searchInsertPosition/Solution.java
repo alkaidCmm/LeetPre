@@ -7,7 +7,10 @@ package com.cmm.leedcode.binarysearch.easy._034searchInsertPosition;
  * 
  * You may assume no duplicates in the array.
  * 
- * Here are few examples. [1,3,5,6], 5 → 2 [1,3,5,6], 2 → 1 [1,3,5,6], 7 → 4
+ * Here are few examples.
+ * [1,3,5,6], 5 → 2
+ * [1,3,5,6], 2 → 1
+ * [1,3,5,6], 7 → 4
  * [1,3,5,6], 0 → 0
  * 
  * @author cmm
@@ -21,7 +24,8 @@ public class Solution {
 		int high = nums.length - 1;
 		while (low <= high) {
 			int mid = (high + low) / 2;
-			if (nums[mid] < target)// 当出现target与nums中的数相等时，位置指向其左边
+			// 当出现target与nums中的数相等时，位置指向其左边
+			if (nums[mid] < target)
 				low = mid + 1;
 			else
 				high = mid - 1;

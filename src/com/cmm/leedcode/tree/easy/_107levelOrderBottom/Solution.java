@@ -3,8 +3,9 @@ package com.cmm.leedcode.tree.easy._107levelOrderBottom;
 import com.cmm.leedcode.tree.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
+import java.util.Queue;
 
 /**
  * @author cmm
@@ -31,20 +32,44 @@ public class Solution {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         // todo
-        List<List<Integer>> ret = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        List<List<Integer>> wrapList = new ArrayList<>();
+
         if (root == null) {
-            return ret;
+            return wrapList;
         }
-        Stack<TreeNode> stack = new Stack<>();
-        Stack<TreeNode> storeStack = new Stack<>();
-        stack.add(root);
-        while (!stack.isEmpty()) {
-            TreeNode curTreeNode = stack.pop();
-            if (curTreeNode.left != null) {
-                stack.push(curTreeNode.left);
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int levelNum = queue.size();
+            List<Integer> subList = new LinkedList<Integer>();
+            for (int i = 0; i < levelNum; i++) {
+                if (queue.peek().left != null) {
+                    queue.offer(queue.peek().left);
+                }
+                if (queue.peek().right != null) {
+                    queue.offer(queue.peek().right);
+                }
+                subList.add(queue.poll().val);
             }
+            wrapList.add(0, subList);
         }
-        return ret;
+        return wrapList;
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(3);
+        TreeNode l = new TreeNode(9);
+        TreeNode r = new TreeNode(20);
+        TreeNode rl = new TreeNode(15);
+        TreeNode rr = new TreeNode(7);
+
+        root.left = l;
+        root.right = r;
+        r.left = rl;
+        r.right = rr;
+
+        Solution s = new Solution();
+        s.levelOrderBottom(root);
     }
 
 }

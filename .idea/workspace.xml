@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/fuckalgor/dynamicprogramming/StoneGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_516longestPalindromeSubseq/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_887superEggDrop/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_094inorderTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_095generateTrees/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_207canFinish/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/_146LRUCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/_146LRUCache/LRUCache2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/_204countPrimes/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_112hasPathSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_226invertTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_235lowestCommonAncestor/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_257binaryTreePaths/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_404sumOfLeftLeaves/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_096numTrees/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_98isValidBST/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_005longestPalindrome/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_005longestPalindrome/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_100sameTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_100sameTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_101symmetricTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_101symmetricTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_1022/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_1022sumRootToLeaf/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_104maxDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_104maxDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_107levelOrderBottom/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_108sortedArrayToBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_108sortedArrayToBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_110isBalanced/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_110isBalanced/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_111minDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_111minDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_501findMode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_501findMode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_530getMinimumDifference/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_530getMinimumDifference/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_538convertBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_538convertBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_543diameterOfBinaryTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_543diameterOfBinaryTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_559maxDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_559maxDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_572isSubtree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_572isSubtree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_589preorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_589preorder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_590postorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_590postorder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_617mergeTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_617mergeTrees/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_637averageOfLevels/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_637averageOfLevels/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_653findTarget/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_653findTarget/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_669trimBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_669trimBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_671findSecondMinimumValue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_671findSecondMinimumValue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_687longestUnivaluePath/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_687longestUnivaluePath/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_700searchBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_700searchBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_783minDiffInBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_783minDiffInBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_872leafSimilar/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_872leafSimilar/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_938rangeSumBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_938rangeSumBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_965isUnivalTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_965isUnivalTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_993isCousins/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_993isCousins/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_034searchInsertPosition/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_034searchInsertPosition/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_072minDistance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_072minDistance/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_100sameTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_100sameTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_111minDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_111minDepth/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_095generateTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_095generateTrees/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,6 +271,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="deleteD&#9;PSI&#9;JAVA://com.cmm.jzOffer._57deleteDuplicationList.Solution#deleteDuplicationList&#10;merge&#9;PSI&#9;JAVA://com.cmm.leedcode.mergeTwoLists021.MergeTwoLists&#10;two&#9;PSI&#9;JAVA://com.cmm.leedcode.twosum001.TwoSum&#10;Power&#9;FILE&#9;file:///Users/cmm/Idea_Space/ACM/src/com/cmm/jzOffer/_11power&#10;dupl&#9;PSI&#9;JAVA://com.cmm.leedcode.removeDuplicates.RemoveDuplicates&#10;pal&#9;PSI&#9;JAVA://com.cmm.leedcode.palindromeNumber009.PalindromeNumber&#10;rever&#9;PSI&#9;JAVA://com.cmm.leedcode.reverseInteger007.ReverseInteger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -313,7 +296,7 @@
       <recent name="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -428,12 +411,12 @@
       <method />
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming._300lengthOfLIS.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.easy._257binaryTreePaths.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming._300lengthOfLIS.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.tree.easy._257binaryTreePaths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,12 +425,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming._005longestPalindrome.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.medium._095generateTrees.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming._005longestPalindrome.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.tree.medium._095generateTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,13 +438,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming.hard._072minDistance.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.easy._107levelOrderBottom.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming.hard._072minDistance.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.tree.easy._107levelOrderBottom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -591,11 +574,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -604,6 +587,7 @@
       <projects_view />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -699,11 +683,17 @@
       <workItem from="1595993792841" duration="56000" />
       <workItem from="1596030115045" duration="3045000" />
       <workItem from="1597626334746" duration="597000" />
+      <workItem from="1598170765555" duration="3637000" />
+      <workItem from="1598278247702" duration="12219000" />
+      <workItem from="1600135230461" duration="6620000" />
+      <workItem from="1601177117416" duration="1961000" />
+      <workItem from="1601195445468" duration="23797000" />
+      <workItem from="1602299443583" duration="13629000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -722,106 +712,94 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="#Live_Templates/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1594957087621" />
-    <state x="161" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592987727622">
-      <screen x="-263" y="-1057" width="1920" height="1057" />
+    <state x="320" y="150" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598317639268">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="161" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1592987727622" />
-    <state x="496" y="-806" key="#com.intellij.ide.util.MemberChooser" timestamp="1592933092965">
-      <screen x="-277" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="510" y="-806" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1591922976088" />
-    <state x="580" y="231" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1592224878974" />
-    <state x="496" y="-806" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592933092965" />
+    <state x="320" y="150" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1598317639268" />
     <state x="879" y="149" key="#xdebugger.evaluate" timestamp="1595262372068">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="869" y="-962" key="#xdebugger.evaluate/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594992105283" />
     <state x="849" y="102" key="#xdebugger.evaluate/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1594991886789" />
-    <state x="1087" y="-812" key="#xdebugger.evaluate/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592932140967" />
-    <state x="587" y="149" key="#xdebugger.evaluate/0.23.1440.877/-277.-1057.1920.1057@0.23.1440.877" timestamp="1592661315110" />
     <state x="879" y="149" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1595262372068" />
-    <state width="448" height="618" key="DebuggerActiveHint" timestamp="1595493820307">
+    <state width="453" height="618" key="DebuggerActiveHint" timestamp="1602315770880">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="598" height="745" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594992207370" />
-    <state width="448" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595493820307" />
-    <state width="587" height="745" key="DebuggerActiveHint/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935380620" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1595497460307">
+    <state width="453" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315770880" />
+    <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1601286339976">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601286339976" />
+    <state width="1396" height="228" key="GridCell.Tab.0.bottom" timestamp="1602315788815">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956824" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460307" />
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020311" />
-    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595262734353" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1595497460306">
+    <state width="1396" height="228" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315788815" />
+    <state width="1396" height="225" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601642430995" />
+    <state width="1396" height="228" key="GridCell.Tab.0.center" timestamp="1602315788814">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956823" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460306" />
-    <state width="1878" height="218" key="GridCell.Tab.0.center/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020308" />
-    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595262734352" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1595497460305">
+    <state width="1396" height="228" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315788814" />
+    <state width="1396" height="225" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601642430994" />
+    <state width="1396" height="228" key="GridCell.Tab.0.left" timestamp="1602315788813">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956822" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460305" />
-    <state width="1878" height="218" key="GridCell.Tab.0.left/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020306" />
-    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595262734352" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1595497460307">
+    <state width="1396" height="228" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315788813" />
+    <state width="1396" height="225" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601642430993" />
+    <state width="1396" height="228" key="GridCell.Tab.0.right" timestamp="1602315788815">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956824" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460307" />
-    <state width="1878" height="218" key="GridCell.Tab.0.right/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020310" />
-    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595262734353" />
-    <state width="1398" height="228" key="GridCell.Tab.1.bottom" timestamp="1595497460308">
+    <state width="1396" height="228" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315788815" />
+    <state width="1396" height="225" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601642430994" />
+    <state width="1396" height="228" key="GridCell.Tab.1.bottom" timestamp="1602315742053">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956827" />
-    <state width="1398" height="228" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460308" />
-    <state width="1878" height="218" key="GridCell.Tab.1.bottom/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020670" />
-    <state width="1398" height="202" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595262734521" />
-    <state width="1398" height="228" key="GridCell.Tab.1.center" timestamp="1595497460308">
+    <state width="1396" height="228" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315742053" />
+    <state width="1396" height="228" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
+    <state width="1396" height="228" key="GridCell.Tab.1.center" timestamp="1602315742052">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956826" />
-    <state width="1398" height="228" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460308" />
-    <state width="1878" height="218" key="GridCell.Tab.1.center/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020668" />
-    <state width="1398" height="202" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1595262734521" />
-    <state width="1398" height="228" key="GridCell.Tab.1.left" timestamp="1595497460307">
+    <state width="1396" height="228" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315742052" />
+    <state width="1396" height="228" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
+    <state width="1396" height="228" key="GridCell.Tab.1.left" timestamp="1602315742052">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956826" />
-    <state width="1398" height="228" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460307" />
-    <state width="1878" height="218" key="GridCell.Tab.1.left/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020667" />
-    <state width="1398" height="202" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1595262734520" />
-    <state width="1398" height="228" key="GridCell.Tab.1.right" timestamp="1595497460308">
+    <state width="1396" height="228" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315742052" />
+    <state width="1396" height="228" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
+    <state width="1396" height="228" key="GridCell.Tab.1.right" timestamp="1602315742053">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="281" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594993956827" />
-    <state width="1398" height="228" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595497460308" />
-    <state width="1878" height="218" key="GridCell.Tab.1.right/0.23.1440.877/-277.-1057.1920.1057@-277.-1057.1920.1057" timestamp="1592935020669" />
-    <state width="1398" height="202" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1595262734521" />
-    <state x="14" y="-1033" key="SettingsEditor" timestamp="1594000485089">
-      <screen x="-263" y="-1057" width="1920" height="1057" />
+    <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602315742053" />
+    <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
+    <state x="0" y="23" width="1440" height="877" key="SettingsEditor" timestamp="1600157780565">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="14" y="-1033" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594000485089" />
-    <state x="208" y="43" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1593261634208" />
-    <state x="506" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592271489264">
+    <state x="0" y="23" width="1440" height="877" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1600157780565" />
+    <state x="168" y="84" key="VCS.ChangeListViewerDialog" timestamp="1601285970200">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="506" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1592271489264" />
-    <state x="422" y="200" width="596" height="522" key="find.popup" timestamp="1595260582900">
+    <state x="168" y="84" key="VCS.ChangeListViewerDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601285970200" />
+    <state x="422" y="200" width="596" height="522" key="find.popup" timestamp="1601209269901">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="300" y="-844" width="795" height="630" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1593777531353" />
-    <state x="422" y="200" width="596" height="522" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1595204596284" />
+    <state x="300" y="-844" width="795" height="630" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1598180981000" />
+    <state x="422" y="200" width="596" height="522" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601209269901" />
     <state x="422" y="200" width="596" height="522" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595260582900" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1596074306045">
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1602326642585">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="362" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1594173432751" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1596074306045" />
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1602326642585" />
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-277.-1057.1920.1057@0.23.1440.877" timestamp="1598286341364" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595256565125" />
   </component>
   <component name="XDebuggerManager">
@@ -1562,7 +1540,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_072minDistance/Solution.java</url>
-          <line>62</line>
+          <line>65</line>
           <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1574,6 +1552,36 @@
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_516longestPalindromeSubseq/Solution.java</url>
           <line>35</line>
           <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_257binaryTreePaths/Solution.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_257binaryTreePaths/Solution.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_257binaryTreePaths/Solution.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="303" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>

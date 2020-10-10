@@ -32,24 +32,27 @@ package com.cmm.leedcode.dynamicprogramming.hard._072minDistance;
 public class Solution {
 
     public int minDistance(String word1, String word2) {
-        int[][] dp=new int[word1.length()+1][word2.length()+1];
+        // dp(i, j)表示 s1[0..i] 和 s2[0..j] 的最小编辑距离
+        int[][] dp = new int[word1.length() + 1][word2.length() + 1];
 
-        for(int i=0;i<=word1.length();i++){
-            dp[i][0]=i;
+        // word2长度为0，word1>0，最小编辑具体数值跟对应长度一致
+        for (int i = 0; i <= word1.length(); i++) {
+            dp[i][0] = i;
         }
-        for(int i=0;i<=word2.length();i++){
-            dp[0][i]=i;
+        // word1长度为0，word2>0，最小编辑具体数值跟对应长度一致
+        for (int i = 0; i <= word2.length(); i++) {
+            dp[0][i] = i;
         }
 
-        for(int i=0;i<word1.length();i++){
-            for(int j=0;j<word2.length();j++){
-                if(word1.charAt(i)==word2.charAt(j)){
-                    dp[i+1][j+1]=dp[i][j];
-                }else{
-                    int insert=dp[i][j+1]+1;
-                    int exchange=dp[i][j]+1;
-                    int delete=dp[i+1][j]+1;
-                    dp[i+1][j+1]=Math.min(insert,Math.min(exchange,delete));
+        for (int i = 0; i < word1.length(); i++) {
+            for (int j = 0; j < word2.length(); j++) {
+                if (word1.charAt(i) == word2.charAt(j)) {
+                    dp[i + 1][j + 1] = dp[i][j];
+                } else {
+                    int insert = dp[i+1][j] + 1;
+                    int exchange = dp[i][j] + 1;
+                    int delete = dp[i][j+1] + 1;
+                    dp[i + 1][j + 1] = Math.min(insert, Math.min(exchange, delete));
                 }
             }
         }
@@ -57,10 +60,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String word1="horse";
-        String word2="ros";
+        String word1 = "horse";
+        String word2 = "ros";
 
-        new Solution().minDistance(word1,word2);
+        new Solution().minDistance(word1, word2);
     }
 
 }
