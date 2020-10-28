@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_102levelOrder/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_103zigzagLevelOrder/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_106buildTree/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_113pathSum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_129sumNumbers/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_144preorderTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_145postorderTraversal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_173bstIterator/BSTIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_199rightSideView/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_105buildBinaryTreeFromPreINOrder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_105buildTree/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_230kthSmallest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_230kthSmallest/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_235lowestCommonAncestor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_235lowestCommonAncestor/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +273,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -689,7 +681,9 @@
       <workItem from="1603186078677" duration="9097000" />
       <workItem from="1603418778463" duration="599000" />
       <workItem from="1603671859021" duration="7059000" />
-      <workItem from="1603758975616" duration="4605000" />
+      <workItem from="1603758975616" duration="6021000" />
+      <workItem from="1603845098214" duration="4784000" />
+      <workItem from="1603850101148" duration="1081000" />
     </task>
     <servers />
   </component>
@@ -765,24 +759,24 @@
     </state>
     <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396939" />
     <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
-    <state x="0" y="23" width="1440" height="877" key="SettingsEditor" timestamp="1600157780565">
+    <state x="0" y="23" width="1440" height="877" key="SettingsEditor" timestamp="1603850048372">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="0" y="23" width="1440" height="877" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1600157780565" />
+    <state x="0" y="23" width="1440" height="877" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603850048372" />
     <state x="168" y="84" key="VCS.ChangeListViewerDialog" timestamp="1601285970200">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="168" y="84" key="VCS.ChangeListViewerDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601285970200" />
-    <state x="422" y="199" width="596" height="701" key="find.popup" timestamp="1603676790339">
+    <state x="422" y="199" width="641" height="701" key="find.popup" timestamp="1603764338450">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="300" y="-844" width="795" height="630" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1598180981000" />
-    <state x="422" y="199" width="596" height="701" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603676790339" />
+    <state x="422" y="199" width="641" height="701" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603764338450" />
     <state x="422" y="200" width="596" height="522" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595260582900" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1603763187708">
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1603849946738">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603763187708" />
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603849946738" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-277.-1057.1920.1057@0.23.1440.877" timestamp="1598286341364" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595256565125" />
   </component>

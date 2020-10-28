@@ -45,24 +45,24 @@ import java.util.Stack;
 public class Solution {
 
     public int kthSmallest(TreeNode root, int k) {
-        Stack<TreeNode> stack=new Stack();
-        // 左子树全部压入站内，站定元素最小
-        while(root!=null){
+        Stack<TreeNode> stack = new Stack();
+        // 左子树全部压入栈内，栈顶元素最小
+        while (root != null) {
             stack.push(root);
-            root=root.left;
+            root = root.left;
         }
 
-        while(k!=0){
-            TreeNode node=stack.pop();
+        while (k != 0) {
+            TreeNode node = stack.pop();
             // pop一个，k值减1
             k--;
-            if(k==0){
+            if (k == 0) {
                 return node.val;
             }
-            TreeNode right=node.right;
-            while(right!=null){
+            TreeNode right = node.right;
+            while (right != null) {
                 stack.push(right);
-                right=right.left;
+                right = right.left;
             }
         }
 
