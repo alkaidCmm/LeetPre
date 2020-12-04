@@ -3,11 +3,13 @@ package com.cmm.leedcode.tree.medium._437pathSum;
 import com.cmm.leedcode.tree.TreeNode;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
- * @author caimingming02
- * @date 2020/10/28 9:50 AM
- * @desc You are given a binary tree in which each node contains an integer value.
+ * @author cmm
+ * @date 2020/7/13 8:28 PM
+ * @desc
+ * You are given a binary tree in which each node contains an integer value.
  *
  * Find the number of paths that sum to a given value.
  *
@@ -35,31 +37,76 @@ import java.util.HashMap;
  */
 public class Solution {
 
-    /**
-     * So the idea is similar as Two sum,
-     * using HashMap to store ( key : the prefix sum, value : how many ways get to this prefix sum) ,
-     * and whenever reach a node, we check if prefix sum - target exists in hashmap or not, if it does,
-     * we added up the ways of prefix sum - target into res.
-     * For instance : in one path we have 1,2,-1,-1,2, then the prefix sum will be: 1, 3, 2, 1, 3,
-     * let's say we want to find target sum is 2, then we will have{2}, {1,2,-1}, {2,-1,-1,2} and {2}ways.
-     */
+
     public int pathSum(TreeNode root, int sum) {
-        HashMap<Integer, Integer> preSum = new HashMap();
-        preSum.put(0,1);
-        return helper(root, 0, sum, preSum);
+        // key是前缀和, value是大小为key的前缀和出现的次数
+        Map<Integer, Integer> prefixSumCount = new HashMap<>();
+        // 前缀和为0的一条路径
+        prefixSumCount.put(0, 1);
+        // 前缀和的递归回溯思路
+        return recursionPathSum(root, prefixSumCount, sum, 0);
     }
 
-    public int helper(TreeNode root, int currSum, int target, HashMap<Integer, Integer> preSum) {
-        if (root == null) {
+    /**
+     * 前缀和的递归回溯思路
+     * 从当前节点反推到根节点(反推比较好理解，正向其实也只有一条)，有且仅有一条路径，因为这是一棵树
+     * 如果此前有和为currSum-target,而当前的和又为currSum,两者的差就肯定为target了
+     * 所以前缀和对于当前路径来说是唯一的，当前记录的前缀和，在回溯结束，回到本层时去除，保证其不影响其他分支的结果
+     * @param node 树节点
+     * @param prefixSumCount 前缀和Map
+     * @param target 目标值
+     * @param currSum 当前路径和
+     * @return 满足题意的解
+     */
+    private int recursionPathSum(TreeNode node, Map<Integer, Integer> prefixSumCount, int target, int currSum) {
+        // 1.递归终止条件
+        if (node == null) {
             return 0;
         }
+        // 2.本层要做的事情
+        int res = 0;
+        // 当前路径上的和
+        currSum += node.val;
 
-        currSum += root.val;
-        int res = preSum.getOrDefault(currSum - target, 0);
-        preSum.put(currSum, preSum.getOrDefault(currSum, 0) + 1);
+        //---核心代码
+        // 看看root到当前节点这条路上是否存在节点前缀和加target为currSum的路径
+        // 当前节点->root节点反推，有且仅有一条路径，如果此前有和为currSum-target,而当前的和又为currSum,两者的差就肯定为target了
+        // currSum-target相当于找路径的起点，起点的sum+target=currSum，当前点到起点的距离就是target
+        res += prefixSumCount.getOrDefault(currSum - target, 0);
+        // 更新路径上当前节点前缀和的个数
+        prefixSumCount.put(currSum, prefixSumCount.getOrDefault(currSum, 0) + 1);
+        //---核心代码
 
-        res += helper(root.left, currSum, target, preSum) + helper(root.right, currSum, target, preSum);
-        preSum.put(currSum, preSum.get(currSum) - 1);
+        // 3.进入下一层
+        res += recursionPathSum(node.left, prefixSumCount, target, currSum);
+        res += recursionPathSum(node.right, prefixSumCount, target, currSum);
+
+        // 4.回到本层，恢复状态，去除当前节点的前缀和数量
+        prefixSumCount.put(currSum, prefixSumCount.get(currSum) - 1);
         return res;
+    }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(10);
+        TreeNode l = new TreeNode(5);
+        TreeNode r = new TreeNode(-3);
+        TreeNode ll = new TreeNode(3);
+        TreeNode lr = new TreeNode(2);
+        TreeNode rr = new TreeNode(11);
+        TreeNode lll = new TreeNode(3);
+        TreeNode llr = new TreeNode(-2);
+        TreeNode lrr = new TreeNode(1);
+
+        root.left = l;
+        root.right = r;
+        l.left = ll;
+        l.right = lr;
+        r.right = rr;
+        ll.left = lll;
+        ll.right = llr;
+        lr.right = lrr;
+        Solution s = new Solution();
+        int ret = s.pathSum(root, 8);
+        System.out.println(ret);
     }
 }

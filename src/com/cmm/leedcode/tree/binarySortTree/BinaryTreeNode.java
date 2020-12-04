@@ -1,5 +1,8 @@
 package com.cmm.leedcode.tree.binarySortTree;
 
+/**
+ * 二叉搜索树
+ */
 public class BinaryTreeNode {
 	private BinaryTreeNode leftChild;
 	private BinaryTreeNode rightChild;

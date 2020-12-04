@@ -1,4 +1,4 @@
-package com.cmm.fuckalgor.findErrorNums;
+package com.cmm.leedcode.math._645findErrorNums;
 
 /**
  * @author cmm
@@ -18,6 +18,7 @@ public class Solution {
         int dup = -1;
         for (int i = 0; i < nums.length; i++) {
             int index = Math.abs(nums[i]) - 1;
+            // 第一轮被置相反的负数时，小于0即为负数
             if (nums[index] < 0) {
                 dup = Math.abs(nums[i]);
             } else {
@@ -38,7 +39,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 8, 3, 4, 7, 6, 2, 8};
+        int[] nums = new int[]{1, 8, 3, 4, 7, 6, 2, 8,8};
         findErrorNums(nums);
     }
 

@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_922sortArrayByParityII/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_172trailingZeroes/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_224calculate/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_793preimageSizeFZF/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_513findBottomLeftValue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_515largestValues/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/fuckalgor/findErrorNums/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_645findErrorNums/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_012integerToRoman/IntegerAndRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_204countPrimes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_204countPrimes/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_905sortArrayByParity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_905sortArrayByParity/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/_437pathSum/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/binarySortTree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/binarySortTree/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/twosum001/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/twosum001/TwoSum2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="/usr/local/Cellar/git/2.29.2/bin/git" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -271,7 +288,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -282,7 +299,7 @@
       <recent name="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -396,13 +413,27 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.easy._257binaryTreePaths.Solution" />
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.linkedlist.medium._002addtwonumbers.AddTwoNumbers" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.tree.easy._257binaryTreePaths.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.linkedlist.medium._002addtwonumbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.array._448findDisappearedNum.Solution" />
+      <module name="LeetPre" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmm.leedcode.array._448findDisappearedNum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +442,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.medium._095generateTrees.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.math._645findErrorNums.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.tree.medium._095generateTrees.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.math._645findErrorNums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,41 +455,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.easy._107levelOrderBottom.Solution" />
+    <configuration name="Solution (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.medium._437pathSum.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.tree.easy._107levelOrderBottom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.medium._105buildTree.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.tree.medium._105buildTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.tree.medium._129sumNumbers.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.tree.medium._129sumNumbers.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.tree.medium._437pathSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,40 +470,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.backtracking.medium._047Permutations2.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.array._922sortArrayByParityII.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.backtracking.medium._047Permutations2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.backtracking.medium._060getPermutation.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.backtracking.medium._060getPermutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.backtracking.medium._784letterCasePermutation.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.backtracking.medium._784letterCasePermutation.*" />
+          <option name="PATTERN" value="com.cmm.leedcode.array._922sortArrayByParityII.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,11 +535,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.Solution (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -682,7 +657,15 @@
       <workItem from="1603758975616" duration="6021000" />
       <workItem from="1603845098214" duration="4784000" />
       <workItem from="1603850101148" duration="1081000" />
-      <workItem from="1603873114838" duration="2554000" />
+      <workItem from="1603873114838" duration="5295000" />
+      <workItem from="1604019429661" duration="598000" />
+      <workItem from="1604020219139" duration="2534000" />
+      <workItem from="1604277200831" duration="5684000" />
+      <workItem from="1605142954533" duration="6122000" />
+      <workItem from="1605574728688" duration="7057000" />
+      <workItem from="1605858695508" duration="7424000" />
+      <workItem from="1606378524221" duration="13172000" />
+      <workItem from="1607047244682" duration="423000" />
     </task>
     <servers />
   </component>
@@ -706,78 +689,88 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="150" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1598317639268" />
-    <state x="879" y="149" key="#xdebugger.evaluate" timestamp="1595262372068">
+    <state x="559" y="149" key="#xdebugger.evaluate" timestamp="1605144527589">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="879" y="149" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1595262372068" />
-    <state width="453" height="618" key="DebuggerActiveHint" timestamp="1603244313184">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="559" y="149" key="#xdebugger.evaluate/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605144527589" />
+    <state width="501" height="617" key="DebuggerActiveHint" timestamp="1606386294513">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="453" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603244313184" />
+    <state width="501" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605577058049" />
+    <state width="501" height="617" key="DebuggerActiveHint/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606386294513" />
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1601286339976">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601286339976" />
-    <state width="1396" height="228" key="GridCell.Tab.0.bottom" timestamp="1603679396938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="251" key="GridCell.Tab.0.bottom" timestamp="1606463498580">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396938" />
-    <state width="1396" height="225" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601642430995" />
-    <state width="1396" height="228" key="GridCell.Tab.0.center" timestamp="1603679396938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
+    <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498580" />
+    <state width="1396" height="251" key="GridCell.Tab.0.center" timestamp="1606463498578">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396938" />
-    <state width="1396" height="225" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601642430994" />
-    <state width="1396" height="228" key="GridCell.Tab.0.left" timestamp="1603679396938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547791" />
+    <state width="1396" height="254" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
+    <state width="1396" height="251" key="GridCell.Tab.0.center/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498578" />
+    <state width="1396" height="251" key="GridCell.Tab.0.left" timestamp="1606463498577">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396938" />
-    <state width="1396" height="225" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601642430993" />
-    <state width="1396" height="228" key="GridCell.Tab.0.right" timestamp="1603679396938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547791" />
+    <state width="1396" height="254" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605270247640" />
+    <state width="1396" height="251" key="GridCell.Tab.0.left/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498577" />
+    <state width="1396" height="251" key="GridCell.Tab.0.right" timestamp="1606463498579">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396938" />
-    <state width="1396" height="225" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601642430994" />
-    <state width="1396" height="228" key="GridCell.Tab.1.bottom" timestamp="1603679396939">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
+    <state width="1396" height="251" key="GridCell.Tab.0.right/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498579" />
+    <state width="1396" height="251" key="GridCell.Tab.1.bottom" timestamp="1606463498583">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396939" />
-    <state width="1396" height="228" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
-    <state width="1396" height="228" key="GridCell.Tab.1.center" timestamp="1603679396939">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
+    <state width="1396" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
+    <state width="1396" height="251" key="GridCell.Tab.1.bottom/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498583" />
+    <state width="1396" height="251" key="GridCell.Tab.1.center" timestamp="1606463498581">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396939" />
-    <state width="1396" height="228" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
-    <state width="1396" height="228" key="GridCell.Tab.1.left" timestamp="1603679396938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
+    <state width="1396" height="254" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
+    <state width="1396" height="251" key="GridCell.Tab.1.center/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498581" />
+    <state width="1396" height="251" key="GridCell.Tab.1.left" timestamp="1606463498581">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396938" />
-    <state width="1396" height="228" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
-    <state width="1396" height="228" key="GridCell.Tab.1.right" timestamp="1603679396939">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
+    <state width="1396" height="254" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
+    <state width="1396" height="251" key="GridCell.Tab.1.left/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498581" />
+    <state width="1396" height="251" key="GridCell.Tab.1.right" timestamp="1606463498582">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603679396939" />
-    <state width="1396" height="228" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1601642430988" />
-    <state x="0" y="23" width="1440" height="877" key="SettingsEditor" timestamp="1603850048372">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1396" height="254" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
+    <state width="1396" height="254" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
+    <state width="1396" height="251" key="GridCell.Tab.1.right/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606463498582" />
+    <state x="0" y="25" width="1440" height="875" key="SettingsEditor" timestamp="1605860030589">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="0" y="23" width="1440" height="877" key="SettingsEditor/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603850048372" />
+    <state x="0" y="25" width="1440" height="875" key="SettingsEditor/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1605860030589" />
     <state x="168" y="84" key="VCS.ChangeListViewerDialog" timestamp="1601285970200">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="168" y="84" key="VCS.ChangeListViewerDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601285970200" />
-    <state x="422" y="199" width="641" height="701" key="find.popup" timestamp="1603764338450">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="422" y="200" width="641" height="700" key="find.popup" timestamp="1606393750698">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="300" y="-844" width="795" height="630" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@-263.-1057.1920.1057" timestamp="1598180981000" />
-    <state x="422" y="199" width="641" height="701" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603764338450" />
-    <state x="422" y="200" width="596" height="522" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595260582900" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1603849946738">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="422" y="199" width="641" height="701" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605146107594" />
+    <state x="422" y="200" width="641" height="700" key="find.popup/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606393750698" />
+    <state x="469" y="220" width="670" height="560" key="search.everywhere.popup" timestamp="1606394868598">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1603849946738" />
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605577150889" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-277.-1057.1920.1057@0.23.1440.877" timestamp="1598286341364" />
-    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595256565125" />
+    <state x="469" y="220" width="670" height="560" key="search.everywhere.popup/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606394868598" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,23 +797,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
-          <line>49</line>
+          <line>46</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_414thirdMaximumNumber/Solution.java</url>
@@ -1281,7 +1259,7 @@
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/fuckalgor/findErrorNums/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/math/_645findErrorNums/Solution.java</url>
           <line>36</line>
           <option name="timeStamp" value="216" />
         </line-breakpoint>
@@ -1376,12 +1354,7 @@
           <option name="timeStamp" value="248" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/_437pathSum/Solution.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="250" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/_437pathSum/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java</url>
           <line>46</line>
           <option name="timeStamp" value="251" />
         </line-breakpoint>
@@ -1584,6 +1557,56 @@
           <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_129sumNumbers/Solution.java</url>
           <line>51</line>
           <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_922sortArrayByParityII/Solution.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_922sortArrayByParityII/Solution.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="325" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>

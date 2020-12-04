@@ -1,4 +1,4 @@
-package com.cmm.leedcode._204countPrimes;
+package com.cmm.leedcode.math._204countPrimes;
 
 import java.util.Arrays;
 
@@ -29,22 +29,23 @@ public class Solution {
         return true;
     }
 
-    public int countPrimes(int n){
+    public int countPrimes(int n) {
         boolean[] isPrim = new boolean[n];
-        Arrays.fill(isPrim,true);
+        Arrays.fill(isPrim, true);
 
-        for(int i=2;i*i<n;i++){
-            if(isPrim[i]){
-                for(int j=i*i;j<n;j+=i){
-                    isPrim[j]=false;
+        for (int i = 2; i * i < n; i++) {
+            if (isPrim[i]) {
+                // 如果 i 是 素数，i 的倍数不可能是素数了
+                for (int j = i * i; j < n; j += i) {
+                    isPrim[j] = false;
                 }
             }
         }
 
-        int count=0;
+        int count = 0;
 
-        for(int i=2;i<n;i++){
-            if(isPrim[i]){
+        for (int i = 2; i < n; i++) {
+            if (isPrim[i]) {
                 count++;
             }
         }
