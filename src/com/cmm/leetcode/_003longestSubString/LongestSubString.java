@@ -1,4 +1,4 @@
-package com.cmm.leetcode.longestSubString003;
+package com.cmm.leetcode._003longestSubString;
 
 import java.util.HashSet;
 import java.util.Set;

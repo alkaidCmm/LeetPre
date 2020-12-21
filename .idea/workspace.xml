@@ -5,235 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_354maxEnvelopes/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/longestSubString003/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_336palindromePairs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/greedy/_406reconstructQueue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/test/GetDecimalValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_010isMatch/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_678checkValidString/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_005longestPalindromicSubstring/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_005longestPalindromicSubstring/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_011container_With_Most_Water/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_011container_With_Most_Water/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_014longestCommonPrefix/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_014longestCommonPrefix/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_018fourSum/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_018fourSum/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_021mergetwolists/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_021mergetwolists/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_027removeElements/RemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_027removeElements/RemoveElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_028strStr/Strstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_028strStr/Strstr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_029divideTwoIntegers/DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_029divideTwoIntegers/DivideTwoIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_030subStringWithConcatenation/SubstringWithConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_030subStringWithConcatenation/SubstringWithConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_031netpermutation/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_031netpermutation/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_032longestValidParentheses/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_032longestValidParentheses/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_036validSudoku/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_036validSudoku/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_037solverSudoku/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_037solverSudoku/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_121maxProfit/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_121maxProfit/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_122maxProfit2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_122maxProfit2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_146LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_146LRUCache/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_146LRUCache/LRUCache2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_146LRUCache/LRUCache2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_150evaluateReversePolishNotation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_150evaluateReversePolishNotation/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_169majorityElement/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_169majorityElement/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_189rotate/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_189rotate/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_202happyNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_202happyNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_217containsDuplicate/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_217containsDuplicate/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_237deletenodelinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_237deletenodelinkedlist/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_242validAnagram/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_242validAnagram/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_268missingNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_268missingNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_283moveZeroes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_283moveZeroes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_326isPowerOfThree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_326isPowerOfThree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_334reverseString/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_334reverseString/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_344reverseString/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_335reverseVowelsString/Solotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_335reverseVowelsString/Solotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_387firstUniqChar/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_387firstUniqChar/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_412fuzzbuzz/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_412fuzzbuzz/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_849maxDistToClosest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_849maxDistToClosest/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_860lemonadeChange/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_860lemonadeChange/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_867transpose/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_867transpose/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_868BinaryGap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_868BinaryGap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_872LeafSimilar/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_872LeafSimilar/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_872LeafSimilar/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_872LeafSimilar/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_876MiddleNode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_876MiddleNode/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_876MiddleNode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_876MiddleNode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_884UncommonsWordsTwoSentences/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_884UncommonsWordsTwoSentences/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/_888FairCandySwap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_888FairCandySwap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/RemoveDuplicate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/RemoveDuplicate2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_001twoSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_001twoSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_004medianofTwoSortedArrays/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_004medianofTwoSortedArrays/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_026RemoveDuplicatesfromSortedArray/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_026RemoveDuplicatesfromSortedArray/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_026RemoveDuplicatesfromSortedArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_026RemoveDuplicatesfromSortedArray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_066plusone/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_066plusone/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_121bestTimetoBuyandSellStock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_121bestTimetoBuyandSellStock/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_128longestConsecutiveSequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_128longestConsecutiveSequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_1470/shufflearray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_1470/shufflearray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_219ContainsDuplicateII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_219ContainsDuplicateII/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_27RemoveElement/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_27RemoveElement/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_283moveZeroes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_283moveZeroes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_414thirdMaximumNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_414thirdMaximumNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_448findDisappearedNum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_448findDisappearedNum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_905sortArrayByParity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_905sortArrayByParity/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/_922sortArrayByParityII/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_922sortArrayByParityII/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/array/palindromeNumber009/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/palindromeNumber009/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_017letterCombinations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_017letterCombinations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_022generateParenthesis/GenerateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_022generateParenthesis/GenerateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_046Permutations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_046Permutations/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_047Permutations2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_047Permutations2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_060getPermutation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_060getPermutation/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/backtracking/medium/_784letterCasePermutation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_784letterCasePermutation/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_034searchInsertPosition/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_034searchInsertPosition/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_069mySqrt/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_069mySqrt/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_1351countNegatives/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_1351countNegatives/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_167twoSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_167twoSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_278firstBadVersion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_278firstBadVersion/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_349intersection/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_349intersection/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_350intersect/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_350intersect/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_367isPerfectSquare/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_367isPerfectSquare/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_374guessNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_374guessNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_392isSubsequence/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_392isSubsequence/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/easy/_704search/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/easy/_704search/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_032SearchRotatedSortedArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_032SearchRotatedSortedArray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_034searchForRange/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_034searchForRange/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_034searchForRange/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_034searchForRange/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_074searchMatrix/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_074searchMatrix/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_081searchRotatedSortedArray2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_081searchRotatedSortedArray2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_153findMin/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_153findMin/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_230kthSmallest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_230kthSmallest/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch/medium/_240searchMatrix/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/binarysearch/medium/_240searchMatrix/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_136singleNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_136singleNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_137singleNumber2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_137singleNumber2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_190reverseBits/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_190reverseBits/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_231power2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_231power2/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_268missingNumber/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_268missingNumber/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_318maxProduct/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_318maxProduct/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_342isPowerOfFour/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_342isPowerOfFour/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_371getSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_371getSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_401readBinaryWatch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_401readBinaryWatch/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_405toHex/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_405toHex/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_461/hammingDistance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_461/hammingDistance/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/easy/_476numberComplement/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/easy/_476numberComplement/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_078subsets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_078subsets/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_187findRepeatedDnaSequences/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_187findRepeatedDnaSequences/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_201rangeBitwiseAnd/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_201rangeBitwiseAnd/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_260singleNumber3/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_260singleNumber3/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_397integerReplacement/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_397integerReplacement/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/medium/_477totalHammingDistance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/medium/_477totalHammingDistance/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/bitManipulation/task.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/bitManipulation/task.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_005longestPalindrome/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_005longestPalindrome/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_053maxSubArray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_053maxSubArray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_070climbStairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_070climbStairs/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_300lengthOfLIS/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_300lengthOfLIS/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/_322coinChange/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_322coinChange/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_072minDistance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_072minDistance/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_516longestPalindromeSubseq/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_516longestPalindromeSubseq/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/dynamicprogramming/hard/_887superEggDrop/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_887superEggDrop/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/graph/_133CloneGraph/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/graph/_133CloneGraph/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/heap/mergeksortedlists/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/heap/mergeksortedlists/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/heap/mergeksortedlists/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/heap/mergeksortedlists/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_141linkedlistcycle/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_141linkedlistcycle/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_160intersection2linkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_160intersection2linkedlist/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_203removelinkedlistelements/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_203removelinkedlistelements/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_206reverselist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_206reverselist/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_234ispalindrome/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_234ispalindrome/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_707mylinkedlist/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_707mylinkedlist/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/easy/_876middleoflinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/easy/_876middleoflinkedlist/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_002addtwonumbers/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_019remodeKthListNode/RemoveKthListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_019remodeKthListNode/RemoveKthListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_024swapPairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_024swapPairs/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_328oddevenlinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_328oddevenlinkedlist/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_445addtwonumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_445addtwonumbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/linkedlist/medium/_817linkedlistcomponents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/medium/_817linkedlistcomponents/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/longestSubString003/LongestSubString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_172trailingZeroes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/math/_172trailingZeroes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_204countPrimes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/math/_204countPrimes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_224calculate/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/math/_224calculate/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_645findErrorNums/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/math/_645findErrorNums/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/math/_793preimageSizeFZF/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/math/_793preimageSizeFZF/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/medianOfTwoSortedArrays004/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/medianOfTwoSortedArrays004/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/memoization/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/memoization/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/mergeKLists023/MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/mergeKLists023/MergeKLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/mergeKLists023/MergeKLists2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/mergeKLists023/MergeKLists2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/others/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/others/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/others/_56mergeInterval/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/others/_56mergeInterval/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/others/_57insertInterval/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/others/_57insertInterval/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/others/_76minimumWindowSubstring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/others/_76minimumWindowSubstring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/regularExpressionMatching010/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/regularExpressionMatching010/RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/reverseInteger007/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/reverseInteger007/ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/reverseKGroup025/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/reverseKGroup025/ReverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/InsetSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/InsetSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/sort/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/sort/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_020validParentheses/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_020validParentheses/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/stack/easy/_42trappingRainWater/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_42trappingRainWater/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_012integerToRoman/IntegerAndRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_043multiply/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_043multiply/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_067addBinary/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_067addBinary/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/string/_415addstring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_415addstring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/stringToInteger008/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stringToInteger008/StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/threeSum015/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/threeSum015/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/threeSumClosest016/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/threeSumClosest016/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/balancedBinaryTree/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/balancedBinaryTree/BalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/balancedBinaryTree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/balancedBinaryTree/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/binarySortTree/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/binarySortTree/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/binarySortTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/binarySortTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_100sameTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_100sameTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_101symmetricTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_101symmetricTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_1022sumRootToLeaf/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_1022sumRootToLeaf/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_104maxDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_104maxDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_107levelOrderBottom/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_107levelOrderBottom/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_108sortedArrayToBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_108sortedArrayToBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_110isBalanced/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_110isBalanced/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_111minDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_111minDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_112hasPathSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_112hasPathSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_226invertTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_226invertTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_235lowestCommonAncestor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_235lowestCommonAncestor/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_257binaryTreePaths/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_257binaryTreePaths/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_404sumOfLeftLeaves/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_404sumOfLeftLeaves/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_501findMode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_501findMode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_530getMinimumDifference/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_530getMinimumDifference/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_538convertBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_538convertBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_543diameterOfBinaryTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_543diameterOfBinaryTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_559maxDepth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_559maxDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_572isSubtree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_572isSubtree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_589preorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_589preorder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_590postorder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_590postorder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_617mergeTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_617mergeTrees/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_637averageOfLevels/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_637averageOfLevels/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_653findTarget/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_653findTarget/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_669trimBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_669trimBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_671findSecondMinimumValue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_671findSecondMinimumValue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_687longestUnivaluePath/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_687longestUnivaluePath/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_700searchBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_700searchBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_783minDiffInBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_783minDiffInBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_872leafSimilar/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_872leafSimilar/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_938rangeSumBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_938rangeSumBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_965isUnivalTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_965isUnivalTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/easy/_993isCousins/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_993isCousins/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_094inorderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_094inorderTraversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_095generateTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_095generateTrees/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_096numTrees/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_096numTrees/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_102levelOrder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_102levelOrder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_103zigzagLevelOrder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_103zigzagLevelOrder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_105buildTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_105buildTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_106buildTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_106buildTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_113pathSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_113pathSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_129sumNumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_129sumNumbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_144preorderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_144preorderTraversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_145postorderTraversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_145postorderTraversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_173bstIterator/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_173bstIterator/BSTIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_199rightSideView/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_199rightSideView/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_207canFinish/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_207canFinish/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_222countNodes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_222countNodes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_236lowestCommonAncestor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_236lowestCommonAncestor/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_429levelOrder/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_429levelOrder/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_437pathSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_437pathSum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_513findBottomLeftValue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_513findBottomLeftValue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_515largestValues/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_515largestValues/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/medium/_98isValidBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_98isValidBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/traversal/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/traversal/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/tree/traversal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/traversal/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leedcode/zigzagConversion006/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/zigzagConversion006/ZigZagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/_011container_With_Most_Water/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_011maxArea/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/longestSubString003/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_003longestSubString/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/reverseInteger007/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/reverseInteger007/ReverseInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -625,13 +404,41 @@
       <envs />
       <method />
     </configuration>
+    <configuration name="GetDecimalValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.linkedlist.test.GetDecimalValue" />
+      <module name="LeetPre" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmm.leetcode.linkedlist.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode._014longestCommonPrefix.LongestCommonPrefix" />
+      <module name="LeetPre" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmm.leetcode._014longestCommonPrefix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.longestSubString003.LongestSubString" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode._003longestSubString.LongestSubString" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leetcode.longestSubString003.*" />
+          <option name="PATTERN" value="com.cmm.leetcode._003longestSubString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -639,41 +446,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming._322coinChange.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.string._043multiply.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming._322coinChange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming.hard._516longestPalindromeSubseq.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming.hard._516longestPalindromeSubseq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leedcode.dynamicprogramming.hard._354maxEnvelopes.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leedcode.dynamicprogramming.hard._354maxEnvelopes.*" />
+          <option name="PATTERN" value="com.cmm.leetcode.string._043multiply.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -682,54 +461,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.string._336palindromePairs.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.greedy._406reconstructQueue.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.leetcode.string._336palindromePairs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.dynamicprogramming._322coinChange.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leetcode.dynamicprogramming._322coinChange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.dynamicprogramming.hard._516longestPalindromeSubseq.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leetcode.dynamicprogramming.hard._516longestPalindromeSubseq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.dynamicprogramming.hard._354maxEnvelopes.Solution" />
-      <module name="LeetPre" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmm.leetcode.dynamicprogramming.hard._354maxEnvelopes.*" />
+          <option name="PATTERN" value="com.cmm.leetcode.greedy._406reconstructQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -790,10 +527,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.GetDecimalValue" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -921,7 +658,8 @@
       <workItem from="1606378524221" duration="13172000" />
       <workItem from="1607047244682" duration="17281000" />
       <workItem from="1607562433186" duration="5554000" />
-      <workItem from="1607586362791" duration="16028000" />
+      <workItem from="1607586362791" duration="31166000" />
+      <workItem from="1608166583820" duration="4309000" />
     </task>
     <servers />
   </component>
@@ -941,86 +679,94 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1049" y="-902" key="#xdebugger.evaluate" timestamp="1607997632285">
+    <state x="1049" y="-902" key="#xdebugger.evaluate" timestamp="1608172416762">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state x="559" y="149" key="#xdebugger.evaluate/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605144527589" />
-    <state x="1049" y="-902" key="#xdebugger.evaluate/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997632285" />
+    <state x="1049" y="-902" key="#xdebugger.evaluate/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172416762" />
     <state x="966" y="143" key="#xdebugger.evaluate/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607670633761" />
-    <state width="668" height="744" key="DebuggerActiveHint" timestamp="1607586955462">
+    <state width="668" height="744" key="DebuggerActiveHint" timestamp="1608172114747">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="501" height="618" key="DebuggerActiveHint/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605577058049" />
-    <state width="668" height="744" key="DebuggerActiveHint/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607586955462" />
+    <state width="668" height="744" key="DebuggerActiveHint/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172114747" />
     <state width="501" height="617" key="DebuggerActiveHint/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606386294513" />
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog" timestamp="1601286339976">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601286339976" />
-    <state width="1876" height="397" key="GridCell.Tab.0.bottom" timestamp="1607997194668">
+    <state width="1876" height="225" key="GridCell.Tab.0.bottom" timestamp="1608172356194">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
     <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
-    <state width="1876" height="397" key="GridCell.Tab.0.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997194668" />
+    <state width="1876" height="225" key="GridCell.Tab.0.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356194" />
     <state width="1396" height="316" key="GridCell.Tab.0.bottom/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212075" />
     <state width="1396" height="316" key="GridCell.Tab.0.bottom/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085089" />
-    <state width="1876" height="397" key="GridCell.Tab.0.center" timestamp="1607997194665">
+    <state width="1396" height="177" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1608118787388" />
+    <state width="1876" height="225" key="GridCell.Tab.0.center" timestamp="1608172356192">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.0.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547791" />
     <state width="1396" height="254" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
-    <state width="1876" height="397" key="GridCell.Tab.0.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997194665" />
+    <state width="1876" height="225" key="GridCell.Tab.0.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356192" />
     <state width="1396" height="316" key="GridCell.Tab.0.center/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212074" />
     <state width="1396" height="316" key="GridCell.Tab.0.center/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085088" />
-    <state width="1876" height="397" key="GridCell.Tab.0.left" timestamp="1607997194665">
+    <state width="1396" height="177" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1608118787387" />
+    <state width="1876" height="225" key="GridCell.Tab.0.left" timestamp="1608172356190">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.0.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547791" />
     <state width="1396" height="254" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605270247640" />
-    <state width="1876" height="397" key="GridCell.Tab.0.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997194665" />
+    <state width="1876" height="225" key="GridCell.Tab.0.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356190" />
     <state width="1396" height="316" key="GridCell.Tab.0.left/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212073" />
     <state width="1396" height="316" key="GridCell.Tab.0.left/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085087" />
-    <state width="1876" height="397" key="GridCell.Tab.0.right" timestamp="1607997194666">
+    <state width="1396" height="177" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1608118787387" />
+    <state width="1876" height="225" key="GridCell.Tab.0.right" timestamp="1608172356193">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.0.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
     <state width="1396" height="254" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605270247641" />
-    <state width="1876" height="397" key="GridCell.Tab.0.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997194666" />
+    <state width="1876" height="225" key="GridCell.Tab.0.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356193" />
     <state width="1396" height="316" key="GridCell.Tab.0.right/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212075" />
     <state width="1396" height="316" key="GridCell.Tab.0.right/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085088" />
-    <state width="1876" height="397" key="GridCell.Tab.1.bottom" timestamp="1607997195059">
+    <state width="1396" height="177" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1608118787387" />
+    <state width="1876" height="225" key="GridCell.Tab.1.bottom" timestamp="1608172356578">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
     <state width="1396" height="254" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
-    <state width="1876" height="397" key="GridCell.Tab.1.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997195059" />
+    <state width="1876" height="225" key="GridCell.Tab.1.bottom/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356578" />
     <state width="1396" height="316" key="GridCell.Tab.1.bottom/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212282" />
     <state width="1396" height="316" key="GridCell.Tab.1.bottom/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085091" />
-    <state width="1876" height="397" key="GridCell.Tab.1.center" timestamp="1607997195058">
+    <state width="1396" height="177" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1608118787398" />
+    <state width="1876" height="225" key="GridCell.Tab.1.center" timestamp="1608172356575">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.1.center/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
     <state width="1396" height="254" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
-    <state width="1876" height="397" key="GridCell.Tab.1.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997195058" />
+    <state width="1876" height="225" key="GridCell.Tab.1.center/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356575" />
     <state width="1396" height="316" key="GridCell.Tab.1.center/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212280" />
     <state width="1396" height="316" key="GridCell.Tab.1.center/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085090" />
-    <state width="1876" height="397" key="GridCell.Tab.1.left" timestamp="1607997195057">
+    <state width="1396" height="177" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1608118787389" />
+    <state width="1876" height="225" key="GridCell.Tab.1.left" timestamp="1608172356573">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.1.left/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547792" />
     <state width="1396" height="254" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
-    <state width="1876" height="397" key="GridCell.Tab.1.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997195057" />
+    <state width="1876" height="225" key="GridCell.Tab.1.left/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356573" />
     <state width="1396" height="316" key="GridCell.Tab.1.left/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212279" />
     <state width="1396" height="316" key="GridCell.Tab.1.left/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085089" />
-    <state width="1876" height="397" key="GridCell.Tab.1.right" timestamp="1607997195058">
+    <state width="1396" height="177" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1608118787388" />
+    <state width="1876" height="225" key="GridCell.Tab.1.right" timestamp="1608172356576">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.1.right/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605669547793" />
     <state width="1396" height="254" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1605270247642" />
-    <state width="1876" height="397" key="GridCell.Tab.1.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1607997195058" />
+    <state width="1876" height="225" key="GridCell.Tab.1.right/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608172356576" />
     <state width="1396" height="316" key="GridCell.Tab.1.right/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607592212281" />
     <state width="1396" height="316" key="GridCell.Tab.1.right/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964085090" />
+    <state width="1396" height="177" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1608118787395" />
     <state x="0" y="25" width="1440" height="875" key="SettingsEditor" timestamp="1605860030589">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -1030,16 +776,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="168" y="84" key="VCS.ChangeListViewerDialog/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1601285970200" />
-    <state x="422" y="200" width="641" height="700" key="find.popup" timestamp="1606393750698">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="300" y="-844" width="855" height="844" key="find.popup" timestamp="1608168720612">
+      <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state x="422" y="199" width="641" height="701" key="find.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605146107594" />
+    <state x="300" y="-844" width="855" height="844" key="find.popup/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608168720612" />
     <state x="422" y="200" width="641" height="700" key="find.popup/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1606393750698" />
-    <state x="620" y="-788" width="894" height="676" key="search.everywhere.popup" timestamp="1608020261677">
+    <state x="620" y="-788" width="894" height="676" key="search.everywhere.popup" timestamp="1608170556513">
       <screen x="-263" y="-1055" width="1920" height="1055" />
     </state>
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/-263.-1057.1920.1057@0.23.1440.877" timestamp="1605577150889" />
-    <state x="620" y="-788" width="894" height="676" key="search.everywhere.popup/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608020261677" />
+    <state x="620" y="-788" width="894" height="676" key="search.everywhere.popup/0.25.1440.875/-263.-1055.1920.1055@-263.-1055.1920.1055" timestamp="1608170556513" />
     <state x="469" y="220" width="670" height="560" key="search.everywhere.popup/0.25.1440.875/-263.-1055.1920.1055@0.25.1440.875" timestamp="1607590248678" />
     <state x="469" y="220" width="670" height="560" key="search.everywhere.popup/0.25.1440.875/-277.-1055.1920.1055@0.25.1440.875" timestamp="1607964674250" />
   </component>
@@ -1400,11 +1147,6 @@
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_043multiply/Solution.java</url>
           <line>45</line>
           <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_043multiply/Solution.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_066plusone/Solution.java</url>
@@ -1895,7 +1637,7 @@
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/longestSubString003/LongestSubString.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/_003longestSubString/LongestSubString.java</url>
           <line>13</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
@@ -1903,6 +1645,31 @@
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_336palindromePairs/Solution.java</url>
           <line>55</line>
           <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/reverseInteger007/ReverseInteger.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/_014longestCommonPrefix/LongestCommonPrefix.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/linkedlist/test/GetDecimalValue.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/greedy/_406reconstructQueue/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/greedy/_406reconstructQueue/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="344" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>

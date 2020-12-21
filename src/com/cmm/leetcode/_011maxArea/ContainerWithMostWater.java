@@ -1,4 +1,4 @@
-package com.cmm.leetcode._011container_With_Most_Water;
+package com.cmm.leetcode._011maxArea;
 
 /**
  * 题意：在一个坐标系中，给出若干点，每个点做x轴的垂直线，然后求任何两条线形成的容器中能盛下最多水的情况
