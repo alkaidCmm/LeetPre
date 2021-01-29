@@ -3,7 +3,13 @@ package com.cmm.leetcode._189rotate;
 /**
  * @author cmm
  * @date 2020/6/20 1:07 PM
- * @desc
+ * @desc 将字符串 S 从第 K 位置分隔成两个子字符串，并交换这两个子字符串的位置。
+ * Input:
+ * S="abcXYZdef"
+ * K=3
+ *
+ * Output:
+ * "XYZdefabc"
  */
 public class Solution {
     public void rotate(int[] nums, int k) {

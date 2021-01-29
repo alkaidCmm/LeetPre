@@ -12,7 +12,8 @@ public class Solution {
 		int high = array.length - 1;
 		int mid = low;
 		while (array[low] > array[high]) {
-			if (high - low == 1) {// 最大的数与最小的数相邻
+			// 最大的数与最小的数相邻
+			if (high - low == 1) {
 				mid = high;
 				break;
 			}

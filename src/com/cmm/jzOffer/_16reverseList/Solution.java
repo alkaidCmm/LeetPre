@@ -1,7 +1,5 @@
 package com.cmm.jzOffer._16reverseList;
 
-import com.cmm.jzOffer._13deleteNodeList.ListNode;
-
 /**
  * 对于一个链表，反转该链表并返回头节点
  * 
@@ -64,5 +62,20 @@ public class Solution {
 		}
 		return reverseHead;
 
+	}
+
+	public ListNode reverseListV2(ListNode head) {
+		ListNode newHead = null;
+		//
+		while (head != null) {
+			// 定位下一个节点
+			ListNode next = head.getNext();
+			// 头指针指向新头部
+			head.setNext(newHead) ;
+			// 尾插法
+			newHead = head;
+			head = next;
+		}
+		return newHead;
 	}
 }

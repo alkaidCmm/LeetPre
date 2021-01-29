@@ -1,8 +1,6 @@
 package com.cmm.jzOffer._65maxInWindows;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Solution {
 	private static List<Integer> maxInWindows(List<Integer> data, int size) {
@@ -50,6 +48,36 @@ public class Solution {
 			}
 		}
 		return result;
+	}
+
+
+	/**
+	 * 维护一个大小为窗口大小的大顶堆，顶堆元素则为当前窗口的最大值。
+	 *
+	 * 假设窗口的大小为 M，数组的长度为 N。
+	 * 在窗口向右移动时，需要先在堆中删除离开窗口的元素，并将新到达的元素添加到堆中，
+	 * 这两个操作的时间复杂度都为 log2M，因此算法的时间复杂度为 O(Nlog2M)，空间复杂度为 O(M)。
+	 * @param num
+	 * @param size
+	 * @return
+	 */
+	public ArrayList<Integer> maxInWindows(int[] num, int size) {
+		ArrayList<Integer> ret = new ArrayList<>();
+		if (size > num.length || size < 1)
+			return ret;
+		/* 大顶堆 */
+		PriorityQueue<Integer> heap = new PriorityQueue<>((o1, o2) -> o2 - o1);
+		for (int i = 0; i < size; i++)
+			heap.add(num[i]);
+		// 堆顶数据即为该窗口最大值
+		ret.add(heap.peek());
+		/* 维护一个大小为 size 的大顶堆 */
+		for (int i = 0, j = i + size; j < num.length; i++, j++) {
+			heap.remove(num[i]);
+			heap.add(num[j]);
+			ret.add(heap.peek());
+		}
+		return ret;
 	}
 
 	public static void main(String[] args) {

@@ -12,9 +12,7 @@ public class Solution {
 	/**
 	 * 这里把判定奇偶性分离出来，提高了代码的重用性，为可扩展提供便利，比如如果需求上，把负数移到非负数的前面，
 	 * 或者把能被3整出的移到不能被3整出的前面等等需求
-	 * 
-	 * @param n
-	 * @return
+	 * 判断偶数
 	 */
 	public boolean isEven(int n) {// 判断n的奇偶性
 		return (n & 1) == 0;

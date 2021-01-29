@@ -3,10 +3,6 @@ package com.cmm.jzOffer._42reverseSentence;
 public class Solution {
 	// 将字节数组自定区间的字符作翻转
 	public static void reverse(char[] data, int start, int end) {
-		if (data == null || data.length < 1 || start < 0 || end > data.length
-				|| start > end) {
-			return;
-		}
 		while (start < end) {
 			char tmp = data[start];
 			data[start] = data[end];
@@ -44,6 +40,24 @@ public class Solution {
 		return data;
 	}
 
+	public String reverseSentence(String str) {
+		int n = str.length();
+		char[] chars = str.toCharArray();
+		int start = 0, end = 0;
+		// 1.子串先反转
+		while (end <= n) {
+			if (end == n || chars[end] == ' ') {
+				reverse(chars, start, end - 1);
+				start = end + 1;
+			}
+			end++;
+		}
+		// 2 整体再反转
+		reverse(chars, 0, n - 1);
+		return new String(chars);
+	}
+
+
 	/**
 	 * 题目二：字符串的左旋转操作是把字符串前面的若干个字符转移到字符串的尾部。 请定义一个函数实现字符串左旋转操作的功能。
 	 * 
@@ -59,6 +73,11 @@ public class Solution {
 		reverse(data, 0, data.length - n - 1);
 		reverse(data, data.length - n, data.length - 1);
 		return data;
+	}
+
+	public static void main(String[] args) {
+		String  str="I am a student.";
+		new Solution().reverseSentence(str);
 	}
 
 }
