@@ -1,4 +1,4 @@
-package com.cmm.leetcode.tree.easy._538convertBST;
+package com.cmm.leetcode.tree.medium._538convertBST;
 
 import com.cmm.leetcode.tree.TreeNode;
 
@@ -25,6 +25,11 @@ public class Solution {
 
     int sum=0;
 
+    /**
+     * 从走节点做 加和计算
+     * @param root
+     * @return
+     */
     public TreeNode convertBST(TreeNode root) {
         if (root == null) {
             return null;

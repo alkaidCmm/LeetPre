@@ -34,7 +34,7 @@ import com.cmm.leetcode.tree.TreeNode;
  */
 public class Solution {
 
-
+    // 不主要
     public int findSecondMinimumValue(TreeNode root) {
         if (root == null) {
             return -1;

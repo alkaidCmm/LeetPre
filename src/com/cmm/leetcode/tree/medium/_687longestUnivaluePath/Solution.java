@@ -1,4 +1,4 @@
-package com.cmm.leetcode.tree.easy._687longestUnivaluePath;
+package com.cmm.leetcode.tree.medium._687longestUnivaluePath;
 
 import com.cmm.leetcode.tree.TreeNode;
 
@@ -40,7 +40,12 @@ public class Solution {
         return ret[0];
     }
 
-
+    /**
+     *
+     * @param root
+     * @param ret
+     * @return
+     */
     private int dfs(TreeNode root, int[] ret) {
         int leftCur = root.left != null ? dfs(root.left, ret) : 0;
         int rightCur = root.right != null ? dfs(root.right, ret) : 0;

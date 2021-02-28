@@ -27,25 +27,30 @@ import com.cmm.leetcode.tree.TreeNode;
  *
  * Note:
  *
- * There are at least two nodes in this BST.
+ * There are at least two nodes in this BST（二叉排序树）.
  * This question is the same as 783: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
  */
 public class Solution {
     Integer pre;
-    Integer min= Integer.MAX_VALUE;
+    Integer min = Integer.MAX_VALUE;
 
+    /**
+     * 二叉排序树，中序排序即可
+     * @param root
+     * @return
+     */
     public int getMinimumDifference(TreeNode root) {
-        if(root.left!=null){
-             getMinimumDifference(root.left);
+        if (root.left != null) {
+            getMinimumDifference(root.left);
         }
 
-        if(pre!=null){
-            min=Math.min(min, root.val-pre);
+        if (pre != null) {
+            min = Math.min(min, root.val - pre);
         }
-        pre=root.val;
+        pre = root.val;
 
-        if(root.right!=null){
-             getMinimumDifference(root.right);
+        if (root.right != null) {
+            getMinimumDifference(root.right);
         }
         return min;
     }

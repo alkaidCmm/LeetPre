@@ -31,7 +31,6 @@ import java.util.Queue;
 public class Solution {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        // todo
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         List<List<Integer>> wrapList = new ArrayList<>();
 

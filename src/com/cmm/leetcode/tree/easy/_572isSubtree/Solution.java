@@ -60,6 +60,6 @@ public class Solution {
         if (s.val != t.val) {
             return false;
         }
-        return isSubtree(s.left, t.left) && isSubtree(s.right, t.right);
+        return isSame(s.left, t.left) && isSame(s.right, t.right);
     }
 }

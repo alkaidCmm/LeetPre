@@ -37,6 +37,13 @@ public class Solution {
         return ret;
     }
 
+    /**
+     * 回溯
+     * @param root
+     * @param sum
+     * @param solution
+     * @param ret
+     */
     private void pathSum(TreeNode root, int sum, List<Integer> solution,List<List<Integer>> ret) {
         if(root==null){
             return;

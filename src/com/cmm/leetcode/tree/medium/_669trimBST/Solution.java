@@ -1,4 +1,4 @@
-package com.cmm.leetcode.tree.easy._669trimBST;
+package com.cmm.leetcode.tree.medium._669trimBST;
 
 import com.cmm.leetcode.tree.TreeNode;
 
@@ -42,6 +42,13 @@ import com.cmm.leetcode.tree.TreeNode;
  */
 public class Solution {
 
+    /**
+     * 构建指定节点数值范围内的二叉树
+     * @param root
+     * @param L
+     * @param R
+     * @return
+     */
     public TreeNode trimBST(TreeNode root, int L, int R) {
         if (root == null) {
             return null;

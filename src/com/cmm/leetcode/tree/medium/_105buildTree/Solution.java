@@ -47,7 +47,6 @@ public class Solution {
         TreeNode root = new TreeNode(preorder[preStart]);
         int inRoot = inMap.get(root.val);
         int numsLeft = inRoot - inStart;
-
         root.left = buildTree(preorder, preStart + 1, preStart + numsLeft, inorder, inStart, inRoot - 1, inMap);
         root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
 
@@ -55,8 +54,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] preorder = new int[]{3, 9, 20, 15, 7};
-        int[] inorder = new int[]{9, 3, 15, 20, 7};
+        int[] preorder = new int[]{4, 2, 1, 3, 6, 5, 7};
+        int[] inorder = new int[]{1, 2, 3, 4, 5, 6, 7};
         new Solution().buildTree(preorder, inorder);
     }
 }
