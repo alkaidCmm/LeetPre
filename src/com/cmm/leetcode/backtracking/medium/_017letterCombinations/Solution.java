@@ -23,14 +23,14 @@ public class Solution {
     }
 
     private void backtrack(String digits, List<String> list, char[][] map, StringBuilder sb, int start) {
-        if(start == digits.length()) {
+        if (start == digits.length()) {
             list.add(new String(sb));
             return;
         }
         int num = digits.charAt(start) - '0';
-        for(int i = 0;i< map[num].length;i++){
+        for (int i = 0; i < map[num].length; i++) {
             sb.append(map[num][i]);
-            backtrack(digits,list,map,sb,start+1);
+            backtrack(digits, list, map, sb, start + 1);
             sb.deleteCharAt(sb.length() - 1);
         }
     }

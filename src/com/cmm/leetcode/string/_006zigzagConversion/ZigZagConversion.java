@@ -1,9 +1,9 @@
-package com.cmm.leetcode.zigzagConversion006;
+package com.cmm.leetcode.string._006zigzagConversion;
 
 public class ZigZagConversion {
 
 	/**
-	 * 
+	 * ps：不典型，不重要
 	 * @param str
 	 *            需要转换的字符串
 	 * @param nRows

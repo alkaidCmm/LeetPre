@@ -1,4 +1,4 @@
-package com.cmm.leetcode.string._010isMatch;
+package com.cmm.leetcode.dynamicprogramming._010isMatch;
 
 /**
  * @author caimingming02

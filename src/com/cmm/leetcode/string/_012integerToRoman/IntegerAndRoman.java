@@ -26,7 +26,8 @@ public class IntegerAndRoman {
         String[] Romans = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X",
                 "IX", "V", "IV", "I"};
         String sb = "";
-        for (int i = 0; i < values.length; i++) {// i < values.length
+        // i < values.length
+        for (int i = 0; i < values.length; i++) {
             while (num >= values[i]) {
                 num -= values[i];
                 sb += Romans[i];
@@ -35,12 +36,21 @@ public class IntegerAndRoman {
         return sb;
     }
 
+    /**
+     * For example, 2 is written as II in Roman numeral,
+     * just two one's added together.
+     * 12 is written as XII, which is simply X + II.
+     * The number 27 is written as XXVII, which is XX + V + II.
+     *
+     * @param romanStr
+     * @return
+     */
     public int romanToInteger(String romanStr) {
         char[] roman = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
         int[] num = {1, 5, 10, 50, 100, 500, 1000};
         int result = 0;
         Map<Character, Integer> romToInt = new HashMap<Character, Integer>();
-        for (int i = 0; i < roman.length ; i++) {
+        for (int i = 0; i < roman.length; i++) {
             romToInt.put(roman[i], num[i]);
         }
         //第一个字符对应的值
@@ -62,7 +72,7 @@ public class IntegerAndRoman {
     public static void main(String[] args) {
         IntegerAndRoman itr = new IntegerAndRoman();
 //		System.out.println(itr.integerToRoman(1000));
-        System.out.println(itr.romanToInteger("MCMXCIV"));
+        System.out.println(itr.romanToInteger("IX"));
     }
 
 }

@@ -1,4 +1,4 @@
-package com.cmm.leetcode.array._004medianofTwoSortedArrays;
+package com.cmm.leetcode.array.hard._004medianofTwoSortedArrays;
 
 /**
  * Created by cmm on 2016/12/26.

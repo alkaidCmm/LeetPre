@@ -1,4 +1,4 @@
-package com.cmm.leetcode.array._001twoSum;
+package com.cmm.leetcode.array.easy._001twoSum;
 import java.util.Map;
 /**
  * Created by cmm on 2016/12/26.

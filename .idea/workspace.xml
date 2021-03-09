@@ -7,17 +7,17 @@
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/balancedBinaryTree/BalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/balancedBinaryTree/BalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_107levelOrderBottom/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_107levelOrderBottom/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_110isBalanced/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_110isBalanced/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_530getMinimumDifference/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_530getMinimumDifference/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_538convertBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_538convertBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_572isSubtree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_572isSubtree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_669trimBST/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_669trimBST/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_671findSecondMinimumValue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_671findSecondMinimumValue/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/easy/_687longestUnivaluePath/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_687longestUnivaluePath/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_105buildTree/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_105buildTree/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_113pathSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/tree/medium/_113pathSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/_003longestSubString/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_003longestSubString/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/_005longestPalindromicSubstring/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_005longestPalindromicSubstring/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/_011maxArea/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_011maxArea/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_001twoSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/easy/_001twoSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/array/_004medianofTwoSortedArrays/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/hard/_004medianofTwoSortedArrays/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_017letterCombinations/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/backtracking/medium/_017letterCombinations/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_010isMatch/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_010isMatch/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/stringToInteger008/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_008stringToInteger/StringToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/threeSum015/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/array/medium/threeSum015/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/zigzagConversion006/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_006zigzagConversion/ZigZagConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +303,7 @@
       <recent name="$PROJECT_DIR$/src/com/cmm/leedcode/binarysearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.IntegerAndRoman">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -417,13 +417,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.jzOffer._22StackPushPopOrder.Solution" />
+    <configuration name="IntegerAndRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.leetcode.string._012integerToRoman.IntegerAndRoman" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.jzOffer._22StackPushPopOrder.*" />
+          <option name="PATTERN" value="com.cmm.leetcode.string._012integerToRoman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,13 +431,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmm.jzOffer._10numberOf1InBinary.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmm.jzOffer._22StackPushPopOrder.Solution" />
       <module name="LeetPre" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cmm.jzOffer._10numberOf1InBinary.*" />
+          <option name="PATTERN" value="com.cmm.jzOffer._22StackPushPopOrder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,11 +539,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerAndRoman" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -699,6 +699,11 @@
       <workItem from="1614232292606" duration="12085000" />
       <workItem from="1614250372240" duration="7418000" />
       <workItem from="1614517666007" duration="3000" />
+      <workItem from="1614517784753" duration="652000" />
+      <workItem from="1614580961998" duration="16196000" />
+      <workItem from="1614782214846" duration="8850000" />
+      <workItem from="1615091023703" duration="10875000" />
+      <workItem from="1615294121558" duration="1723000" />
     </task>
     <servers />
   </component>
@@ -721,17 +726,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_001twoSum/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/easy/_001twoSum/Solution.java</url>
           <line>20</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_001twoSum/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/easy/_001twoSum/Solution.java</url>
           <line>21</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_001twoSum/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/easy/_001twoSum/Solution.java</url>
           <line>30</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
@@ -1046,12 +1051,12 @@
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_004medianofTwoSortedArrays/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/hard/_004medianofTwoSortedArrays/Solution.java</url>
           <line>55</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_004medianofTwoSortedArrays/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/hard/_004medianofTwoSortedArrays/Solution.java</url>
           <line>23</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
@@ -1465,23 +1470,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java</url>
-          <line>64</line>
+          <line>74</line>
           <option name="timeStamp" value="316" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java</url>
-          <line>48</line>
+          <line>58</line>
           <option name="timeStamp" value="317" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java</url>
-          <line>52</line>
+          <line>62</line>
           <option name="timeStamp" value="318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_012integerToRoman/IntegerAndRoman.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="320" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/array/_922sortArrayByParityII/Solution.java</url>
@@ -1524,7 +1524,7 @@
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/_003longestSubString/LongestSubString.java</url>
+          <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/string/_003longestSubString/LongestSubString.java</url>
           <line>13</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
