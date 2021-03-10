@@ -1,4 +1,4 @@
-package com.cmm.leetcode.array.medium.threeSum015;
+package com.cmm.leetcode.array.medium._015threeSum;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import java.util.List;
  * @author cmm
  * 
  */
-public class ThreeSum {
+public class Solution {
 	public List<List<Integer>> threeSumToZero(int[] num) {
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
 		int target = 0;// 和等于0
@@ -47,6 +47,6 @@ public class ThreeSum {
 
 	public static void main(String[] args) {
 		int num[] = { 2, 4, 6, 8, 0, -1, -3, -5, -7, -9 };
-		System.out.println(new ThreeSum().threeSumToZero(num));
+		System.out.println(new Solution().threeSumToZero(num));
 	}
 }

@@ -1,4 +1,4 @@
-package com.cmm.leetcode.array._066plusone;
+package com.cmm.leetcode.array.easy._066plusone;
 
 /**
  * @author cmm

@@ -23,6 +23,8 @@ public class Solution {
 
         for (int i = 1; i < nums.length; i++) {
             //dp[i] means the maximum subarray ending with A[i];
+            // dp数组表示在0~i之前最大子串
+
             dp[i] = nums[i] + (dp[i - 1] > 0 ? dp[i - 1] : 0);
             max = Math.max(max, dp[i]);
         }

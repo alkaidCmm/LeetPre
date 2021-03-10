@@ -17,6 +17,38 @@ package com.cmm.leetcode.stack.easy._42trappingRainWater;
  * 链接：https://leetcode-cn.com/problems/trapping-rain-water
  */
 public class Solution {
-    
 
+    public int trap(int[] height) {
+        if (height == null || height.length == 0) {
+            return 0;
+        }
+        int length = height.length;
+
+        int ret = 0;
+
+        // 从左到右的每个位置最大值
+        int[] lMax = new int[length];
+        lMax[0] = height[0];
+        for (int i = 1; i < length - 1; i++) {
+            lMax[i] = Math.max(lMax[i-1], height[i]);
+        }
+        // 从右到左的每个位置最大值
+        int[] rMax = new int[length];
+        rMax[length - 1] = height[length - 1];
+        for (int i = length - 2; i >= 0; i--) {
+            rMax[i] = Math.max(rMax[i + 1], height[i]);
+        }
+
+        for(int i=0;i<length-1;i++){
+            ret+=Math.min(lMax[i],rMax[i])-height[i];
+        }
+
+        return ret;
+
+
+    }
+
+    public static void main(String[] args) {
+        new Solution().trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+    }
 }

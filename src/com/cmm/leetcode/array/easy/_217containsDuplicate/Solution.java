@@ -1,4 +1,4 @@
-package com.cmm.leetcode._217containsDuplicate;
+package com.cmm.leetcode.array.easy._217containsDuplicate;
 
 import java.util.HashMap;
 import java.util.HashSet;

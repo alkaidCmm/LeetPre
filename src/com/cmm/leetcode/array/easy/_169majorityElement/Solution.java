@@ -1,4 +1,4 @@
-package com.cmm.leetcode._169majorityElement;
+package com.cmm.leetcode.array.easy._169majorityElement;
 
 import java.util.Arrays;
 import java.util.HashMap;

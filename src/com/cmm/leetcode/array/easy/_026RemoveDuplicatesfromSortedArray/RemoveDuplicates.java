@@ -1,4 +1,4 @@
-package com.cmm.leetcode.array._026RemoveDuplicatesfromSortedArray;
+package com.cmm.leetcode.array.easy._026RemoveDuplicatesfromSortedArray;
 
 /**
  * Given a sorted array, remove the duplicates in place such that each element
@@ -9,6 +9,7 @@ package com.cmm.leetcode.array._026RemoveDuplicatesfromSortedArray;
  * matter what you leave beyond the new length.
  *
  * @author cmm 给一个有序数列，删重复的元素
+ * 有奇异，不处理
  */
 public class RemoveDuplicates {
     public int removeDuplicates(int[] A) {

@@ -1,4 +1,4 @@
-package com.cmm.leetcode._189rotate;
+package com.cmm.leetcode.array.medium._189rotate;
 
 /**
  * @author cmm

@@ -1,16 +1,16 @@
-package com.cmm.leetcode._011maxArea;
+package com.cmm.leetcode.array.medium._011maxArea;
 
 /**
  * 题意：在一个坐标系中，给出若干点，每个点做x轴的垂直线，然后求任何两条线形成的容器中能盛下最多水的情况
  *
  * @author cmm
  */
-public class ContainerWithMostWater {
+public class Solution {
     public int containerWithMostWater(int height[]) {
         int length = height.length;
         int left = 0;
         int right = length - 1;
-        int area = 0;
+        int area;
         int maxArea = 0;
         while (left < right) {
             if (height[left] < height[right]) {
@@ -27,7 +27,7 @@ public class ContainerWithMostWater {
 
     public static void main(String[] args) {
         int height[] = {8, 9, 10, 9, 8};
-        ContainerWithMostWater cwmw = new ContainerWithMostWater();
+        Solution cwmw = new Solution();
         System.out.println(cwmw.containerWithMostWater(height));
 
     }

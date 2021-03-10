@@ -45,10 +45,10 @@ public class Solution {
         }
 
         TreeNode root = new TreeNode(preorder[preStart]);
-        int inRoot = inMap.get(root.val);
-        int numsLeft = inRoot - inStart;
-        root.left = buildTree(preorder, preStart + 1, preStart + numsLeft, inorder, inStart, inRoot - 1, inMap);
-        root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
+        int rootIndex = inMap.get(root.val);
+        int numsLeft = rootIndex - inStart;
+        root.left = buildTree(preorder, preStart + 1, preStart + numsLeft, inorder, inStart, rootIndex - 1, inMap);
+        root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd, inorder, rootIndex + 1, inEnd, inMap);
 
         return root;
     }
