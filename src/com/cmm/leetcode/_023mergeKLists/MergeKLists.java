@@ -1,4 +1,4 @@
-package com.cmm.leetcode.mergeKLists023;
+package com.cmm.leetcode._023mergeKLists;
 
 import java.util.ArrayList;
 import java.util.Comparator;

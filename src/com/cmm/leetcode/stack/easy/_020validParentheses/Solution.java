@@ -23,32 +23,44 @@ public class Solution {
      */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
-        for (char c : s.toCharArray()) {
-            if (c == '(') {
+//        for (char c : s.toCharArray()) {
+//            if (c == '(') {
+//                stack.push(')');
+//            } else if (c == '{') {
+//                stack.push('}');
+//            } else if (c == '[') {
+//                stack.push(']');
+//            } else if (stack.isEmpty() || stack.pop() != c) {
+//                return false;
+//            }
+//        }
+//        return stack.isEmpty();
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
                 stack.push(')');
-            } else if (c == '{') {
+            } else if (s.charAt(i) == '{') {
                 stack.push('}');
-            } else if (c == '[') {
+            } else if (s.charAt(i) == '[') {
                 stack.push(']');
-            } else if (stack.isEmpty() || stack.pop() != c) {
+            } else if (stack.isEmpty() || stack.pop() != s.charAt(i)) {
                 return false;
             }
         }
         return stack.isEmpty();
     }
 
-    public boolean isValid2(String s){
+    public boolean isValid2(String s) {
         int length;
-        do{
-            length=s.length();
-            s=s.replace("()","").replace("[]","").replace("{}","");
-        }while(length!=s.length());
-        return length==0;
+        do {
+            length = s.length();
+            s = s.replace("()", "").replace("[]", "").replace("{}", "");
+        } while (length != s.length());
+        return length == 0;
     }
 
 
     public static void main(String[] args) {
-        String str = "((]{)[)}";
+        String str = "()";
         Solution s = new Solution();
         s.isValid(str);
     }

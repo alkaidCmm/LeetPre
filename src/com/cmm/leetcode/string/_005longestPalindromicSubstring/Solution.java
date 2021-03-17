@@ -6,7 +6,7 @@ package com.cmm.leetcode.string._005longestPalindromicSubstring;
  * @author cmm
  */
 
-public class LongestPalindromicSubstring {
+public class Solution {
     /**
      * 中心扩展就是把给定的字符串的每一个字母当做中心，向两边扩展，这样来找最长的子回文串。算法复杂度为O(N^2)。
      * 但是要考虑两种情况：
@@ -21,10 +21,10 @@ public class LongestPalindromicSubstring {
         String ret = "";
         for (int i = 0; i < str.length(); i++) {
             String s1 = subLongestPalindromicSubstring(str, i, i);
-			String s2 = subLongestPalindromicSubstring(str, i, i+1);
-			ret=s1.length()>ret.length()?s1:ret;
-			ret=s2.length()>ret.length()?s2:ret;
-		}
+            String s2 = subLongestPalindromicSubstring(str, i, i + 1);
+            ret = s1.length() > ret.length() ? s1 : ret;
+            ret = s2.length() > ret.length() ? s2 : ret;
+        }
         return ret;
     }
 
@@ -37,7 +37,7 @@ public class LongestPalindromicSubstring {
     }
 
     public static void main(String[] args) {
-        LongestPalindromicSubstring lps = new LongestPalindromicSubstring();
+        Solution lps = new Solution();
         String str = lps.longestPalindromicSubstring("abcddcbaef");
         System.out.println(str);
     }

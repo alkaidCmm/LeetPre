@@ -49,10 +49,10 @@ public class Solution {
                 if (word1.charAt(i) == word2.charAt(j)) {
                     dp[i + 1][j + 1] = dp[i][j];
                 } else {
-                    int insert = dp[i+1][j] + 1;
+                    int insert = dp[i + 1][j] + 1;
                     int exchange = dp[i][j] + 1;
-                    int delete = dp[i][j+1] + 1;
-                    dp[i + 1][j + 1] = Math.min(insert, Math.min(exchange, delete));
+                    int update = dp[i][j + 1] + 1;
+                    dp[i + 1][j + 1] = Math.min(insert, Math.min(exchange, update));
                 }
             }
         }
