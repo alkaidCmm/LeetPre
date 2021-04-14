@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_155minStack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_155minStack/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_225StackWith2Queue/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_232QueueWith2Stack/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/slidingWindows/_239maxSlidingWindow/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/jzOffer/_25isPath/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/jzOffer/_25isPath/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_072minDistance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_072minDistance/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_354maxEnvelopes/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/hard/_354maxEnvelopes/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/mergeKLists023/MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_023mergeKLists/MergeKLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/mergeKLists023/MergeKLists2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/_023mergeKLists/MergeKLists2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/regularExpressionMatching010/RegularExpressionMatching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_020validParentheses/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/stack/easy/_020validParentheses/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_005longestPalindromicSubstring/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cmm/leetcode/string/_005longestPalindromicSubstring/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -709,7 +698,8 @@
       <workItem from="1615338303611" duration="43246000" />
       <workItem from="1615787164132" duration="5391000" />
       <workItem from="1615887509883" duration="1197000" />
-      <workItem from="1615958388965" duration="4698000" />
+      <workItem from="1615958388965" duration="12693000" />
+      <workItem from="1616677826828" duration="3383000" />
     </task>
     <servers />
   </component>
