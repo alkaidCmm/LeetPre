@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1c26998-4f6b-43c7-a30c-908a513dbfcd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -703,7 +702,7 @@
       <workItem from="1618766228678" duration="271000" />
       <workItem from="1618766519132" duration="763000" />
       <workItem from="1618767327391" duration="412000" />
-      <workItem from="1618767760714" duration="1245000" />
+      <workItem from="1618767760714" duration="2327000" />
     </task>
     <servers />
   </component>
@@ -1390,12 +1389,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_005longestPalindrome/Solution.java</url>
-          <line>21</line>
+          <line>25</line>
           <option name="timeStamp" value="283" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/cmm/leetcode/dynamicprogramming/_005longestPalindrome/Solution.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="290" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
