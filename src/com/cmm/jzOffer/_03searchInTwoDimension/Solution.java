@@ -36,6 +36,28 @@ public class Solution {
 		return flag;
 	}
 
+	public boolean find_v2(int nums[][],int target){
+		// 行数
+		int columns=nums.length;
+		// 列数
+		int rows=nums[0].length;
+
+		int column=0;
+		int row=rows-1;
+
+		while(column<columns&&row>=0){
+			if(nums[column][row]==target){
+				return true;
+			}else if(nums[column][row]>=target){
+				row--;
+			}else{
+				column++;
+			}
+		}
+
+		return false;
+	}
+
 	public static void main(String[] args) {
 
 	}

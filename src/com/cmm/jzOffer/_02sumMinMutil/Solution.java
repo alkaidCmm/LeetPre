@@ -30,6 +30,24 @@ public class Solution {
 		}
 	}
 
+	public void findSumMInMutil_v2(int nums[], int target){
+		if(nums.length<2){
+			return;
+		}
+		int left=0;
+		int right=nums.length-1;
+		while(left<right){
+			if(nums[left]+nums[right]==target){
+				System.out.println();
+				break;
+			}else if(nums[left]+nums[right]>target){
+				right--;
+			}else{
+				left++;
+			}
+		}
+	}
+
 	public void findSumMinMutil2(int nums[], int target) {
 		if (nums.length < 2)
 			return;

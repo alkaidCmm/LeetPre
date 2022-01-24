@@ -1,5 +1,7 @@
 package com.cmm.jzOffer._04replaceBlank;
 
+import java.util.Arrays;
+
 /**
  * 实现一个函数把字符串中的空格替换成%20
  * 
@@ -37,6 +39,35 @@ public class Solution {
 			m--;
 		}
 		return new String(strNew).trim();
+	}
+
+	public String replaceBlank_v2(String str) {
+		int blank=0;
+		for(int i=0;i<str.length()-1;i++){
+			if(' '==str.charAt(i)){
+				blank++;
+			}
+		}
+
+		int newLength=str.length()+blank*2-1;
+
+		char[] newStr=new char[newLength];
+
+		int oldIndex=0;
+		int newIndex=0;
+		while(oldIndex<str.length()-1&&newIndex<newLength){
+			if(str.charAt(oldIndex)!=' '){
+				newStr[newIndex++]=str.charAt(oldIndex);
+			}else{
+				newStr[newIndex++]='%';
+				newStr[newIndex++]='2';
+				newStr[newIndex++]='0';
+			}
+			oldIndex++;
+		}
+
+		return Arrays.toString(newStr);
+
 	}
 
 	public static void main(String[] args) {
