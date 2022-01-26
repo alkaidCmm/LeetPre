@@ -36,8 +36,36 @@ public class Solution {
         return value;
     }
 
-
     public int getMin() {
+        if (this.stackMin.isEmpty()) {
+            throw new RuntimeException("Your stack is empty.");
+        }
+        return this.stackMin.peek();
+    }
+
+    public void push_v2(int newNum) {
+        if (this.stackMin.isEmpty()) {
+            this.stackMin.push(newNum);
+        } else if (newNum <= this.getMin()) {
+            this.stackMin.push(newNum);
+        }
+        stackData.push(newNum);
+    }
+
+    public int pop_v2() {
+        if (this.stackData.isEmpty()) {
+            throw new RuntimeException("Your stack is empty.");
+        }
+
+        int pop = stackData.pop();
+        if (pop == this.getMin_v2()) {
+            this.stackMin.pop();
+        }
+
+        return pop;
+    }
+
+    public int getMin_v2() {
         if (this.stackMin.isEmpty()) {
             throw new RuntimeException("Your stack is empty.");
         }
