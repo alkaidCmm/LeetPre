@@ -41,4 +41,23 @@ public class Solution {
 				q.add(btn.getRight());
 		}
 	}
+
+
+	public void printFromToptoButtom_v2(BinaryTreeNode root){
+		Queue<BinaryTreeNode> q=new LinkedList<BinaryTreeNode>();
+		if(root!=null){
+			q.add(root);
+		}
+
+		while(!q.isEmpty()){
+			BinaryTreeNode btn=q.poll();
+			System.out.println(btn.getValue());
+			if(btn.getLeft()!=null){
+				q.add(btn.getLeft());
+			}
+			if(btn.getRight()!=null){
+				q.add(btn.getRight());
+			}
+		}
+	}
 }

@@ -81,4 +81,21 @@ public class Solution {
         return stack.isEmpty();
     }
 
+
+    public boolean isPopOrder3(int[] pushSequence, int[] popSequence) {
+
+        int length = pushSequence.length;
+
+        Stack<Integer> stack = new Stack<>();
+        for (int pushIndex = 0, popIndex = 0; pushIndex < length; pushIndex++) {
+            stack.push(pushSequence[pushIndex]);
+
+            while (popIndex < length && !stack.isEmpty() && stack.peek() == popSequence[popIndex]) {
+                popIndex++;
+                stack.pop();
+            }
+        }
+
+        return stack.isEmpty();
+    }
 }
