@@ -46,7 +46,7 @@ public class PalindromeNumber {
 
     public static void main(String[] args) {
         PalindromeNumber pn = new PalindromeNumber();
-        System.out.println(pn.isPalindromeNumber2(78987));
+        System.out.println(pn.isPalindromeNumber2(567898765));
 
     }
 
