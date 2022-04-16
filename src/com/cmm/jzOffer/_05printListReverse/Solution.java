@@ -21,15 +21,6 @@ public class Solution {
         }
     }
 
-    public void printListReverse_v2(ListNode head) {
-        if (head != null) {
-            if (head.next != null) {
-                printListReverse_v2(head.next);
-            }
-            System.out.println(head.value);
-        }
-    }
-
     /**
      * 使用栈来模拟先进后出的过程
      *
@@ -46,19 +37,6 @@ public class Solution {
             System.out.println(stack.pop());
         }
 
-    }
-
-    public void printListReverse2_v2(ListNode head) {
-        Stack<ListNode> stack = new Stack<>();
-
-        while (head != null) {
-            stack.push(head);
-            head = head.next;
-        }
-
-        while(!stack.empty()){
-			System.out.println(stack.pop().value);
-		}
     }
 
     public static void main(String[] args) {

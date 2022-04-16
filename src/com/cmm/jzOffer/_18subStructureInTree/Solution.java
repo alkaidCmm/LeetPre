@@ -76,31 +76,6 @@ public class Solution {
         return false;
     }
 
-
-    public static boolean hasSubtree_v2(BinaryTreeNode root1,
-                                        BinaryTreeNode root2) {
-        if (root1 == root2) {
-            return true;
-        }
-        if (root2 == null) {
-            return true;
-        }
-        if (root1 == null) {
-            return false;
-        }
-
-        boolean ret = false;
-        if (root1.value == root2.value) {
-            ret = match_v2(root1, root2);
-        }
-
-        if (ret) {
-            return true;
-        }
-        return hasSubtree_v2(root1.left, root2) || hasSubtree_v2(root1.right, root2);
-
-    }
-
     public static boolean match_v2(BinaryTreeNode root1, BinaryTreeNode root2) {
         if (root1 == root2) {
             return true;

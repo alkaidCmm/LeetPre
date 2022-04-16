@@ -30,28 +30,6 @@ public class Solution {
         }
     }
 
-    public int fibonacci_v2(int n) {
-        int ret = 0;
-        if (n == 0) {
-            return 0;
-        }
-
-        if (n == 1) {
-            return 1;
-        }
-
-        int first = 0;
-        int second = 1;
-
-        for (int i = 2; i <= n; i++) {
-            ret = first + second;
-            first = second;
-            second = ret;
-        }
-
-        return ret;
-    }
-
     public int fib(int n) {
         Map<Integer, Integer> m = new HashMap<>(n + 1);
         return fib(m, n);
@@ -66,7 +44,6 @@ public class Solution {
 
     public static void main(String[] args) {
 //		System.out.println(new Solution().fibonacci(-5));
-        System.out.println(new Solution().fibonacci_v2(5));
     }
 
 }

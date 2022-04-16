@@ -45,25 +45,4 @@ public class CQueue<T> {
         }
         return stack2.pop();
     }
-
-    public void appendTail_v2(T node) {
-        stack1.push(node);
-    }
-
-    public T deleteHead_v2() {
-        // s2 非空
-        if (!stack2.empty()) {
-            stack2.pop();
-        } else {
-            // s2 空
-            if (stack1.size() == 0) {
-//                throw new Exception("");
-            }
-            while (!stack1.empty()) {
-                stack2.push(stack1.pop());
-            }
-        }
-
-        return stack2.pop();
-    }
 }

@@ -16,7 +16,7 @@ public class Solution {
 	 */
 	public String replaceBlank(String str) {
 		char[] strOld = str.toCharArray();
-		char[] strNew = new char[100];// 新数组，包租数组信息
+		char[] strNew = new char[100];// 新数组，保存数组信息
 		for (int i = 0; i < strOld.length; i++)
 			strNew[i] = strOld[i];
 
