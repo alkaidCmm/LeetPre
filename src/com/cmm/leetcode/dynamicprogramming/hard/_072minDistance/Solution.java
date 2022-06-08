@@ -51,8 +51,8 @@ public class Solution {
                 } else {
                     int insert = dp[i + 1][j] + 1;
                     int exchange = dp[i][j] + 1;
-                    int update = dp[i][j + 1] + 1;
-                    dp[i + 1][j + 1] = Math.min(insert, Math.min(exchange, update));
+                    int delete = dp[i][j + 1] + 1;
+                    dp[i + 1][j + 1] = Math.min(insert, Math.min(exchange, delete));
                 }
             }
         }

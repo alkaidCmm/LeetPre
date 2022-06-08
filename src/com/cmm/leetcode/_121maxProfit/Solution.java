@@ -41,4 +41,26 @@ public class Solution {
 
         return ret;
     }
+
+    public int maxProfit_V2(int[] prices) {
+        int[] dp = new int[prices.length];
+        dp[0] = 0;
+        int min=dp[0];
+        int ret=0;
+        for(int i=1;i <prices.length; i++){
+            if(min>prices[i]){
+                min=prices[i];
+                dp[i]=0;
+            }else{
+                dp[i]=prices[i]-min;
+            }
+
+            ret=Math.max(ret, dp[i]);
+        }
+        return ret;
+    }
+
+    public static void main(String[] args) {
+        new Solution().maxProfit_V2(new int[]{7,1,5,3,6,4});
+    }
 }

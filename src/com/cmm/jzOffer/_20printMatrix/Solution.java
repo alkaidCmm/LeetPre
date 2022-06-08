@@ -68,11 +68,50 @@ public class Solution {
         return ret;
     }
 
+    public int[] spiralOrder(int[][] matrix) {
+        if(matrix == null || matrix.length==0){
+            return new int[0];
+        }
+        int rows=matrix.length-1;
+        int cols=matrix[0].length-1;
+
+        int[] ret=new int[(rows+1)*(cols+1)];
+        int index=0;
+        int row=0;
+        int col=0;
+        while(index<ret.length){
+            for(int i=col;i<=cols;i++){
+                ret[index++]=matrix[row][i];
+            }
+            for(int i=row+1;i<=rows;i++){
+                ret[index++]=matrix[i][cols];
+            }
+            if(row!=rows) {
+                for (int i = cols - 1; i >= col; i--) {
+                    ret[index++] = matrix[rows][i];
+                }
+            }
+            // 这里i>row ，而不是i>=row,因为一开始左到右已经遍历了
+            if(col !=cols) {
+                for (int i = rows - 1; i > row; i--) {
+                    ret[index++] = matrix[i][col];
+                }
+            }
+            col++;
+            row++;
+            cols--;
+            rows--;
+
+        }
+
+        return ret;
+    }
+
     public static void main(String[] args) {
-        int matrix[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9},
-                {10, 11, 12}, {13, 14, 15}};
+        int matrix[][] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
         Solution s = new Solution();
 //		s.printMatrixClockWisely(matrix);
-        s.printMatrix(matrix);
+//        s.printMatrix(matrix);
+        s.spiralOrder(matrix);
     }
 }
