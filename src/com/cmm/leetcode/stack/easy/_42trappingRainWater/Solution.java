@@ -19,28 +19,25 @@ package com.cmm.leetcode.stack.easy._42trappingRainWater;
 public class Solution {
 
     public int trap(int[] height) {
-        if (height == null || height.length == 0) {
+        int n = height.length;
+        if (n == 0) {
             return 0;
         }
-        int length = height.length;
 
+        int[] leftMax = new int[n];
+        leftMax[0] = height[0];
+        for (int i = 1; i < n; i++) {
+            leftMax[i] = Math.max(leftMax[i - 1], height[i]);
+        }
+
+        int[] rightMax = new int[n];
+        rightMax[n - 1] = height[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(rightMax[i + 1], height[i]);
+        }
         int ret = 0;
-
-        // 从左到右的每个位置最大值
-        int[] lMax = new int[length];
-        lMax[0] = height[0];
-        for (int i = 1; i < length - 1; i++) {
-            lMax[i] = Math.max(lMax[i-1], height[i]);
-        }
-        // 从右到左的每个位置最大值
-        int[] rMax = new int[length];
-        rMax[length - 1] = height[length - 1];
-        for (int i = length - 2; i >= 0; i--) {
-            rMax[i] = Math.max(rMax[i + 1], height[i]);
-        }
-
-        for(int i=0;i<length-1;i++){
-            ret+=Math.min(lMax[i],rMax[i])-height[i];
+        for (int i = 0; i < n; i++) {
+            ret += Math.min(leftMax[i], rightMax[i]) - height[i];
         }
 
         return ret;
@@ -49,6 +46,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        new Solution().trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+        new Solution().trap(new int[]{4,2,0,3,2,5});
     }
 }
