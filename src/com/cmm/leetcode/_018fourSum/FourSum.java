@@ -9,8 +9,9 @@ public class FourSum {
 	public List<List<Integer>> fourSum(int[] num, int target) {
 		HashSet<List<Integer>> hashSet = new HashSet<List<Integer>>();
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
-		if (num.length <= 3)
+		if (num.length <= 3) {
 			return result;
+		}
 		Arrays.sort(num);
 		// i，j分别定义两个最左边和最右边的下标值
 		for (int i = 0; i < num.length - 3; i++) {
