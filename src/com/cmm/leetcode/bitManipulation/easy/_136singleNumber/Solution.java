@@ -1,5 +1,8 @@
 package com.cmm.leetcode.bitManipulation.easy._136singleNumber;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Author: cmm
  * @Date: 2018/9/10 12:51 AM
@@ -34,10 +37,26 @@ public class Solution {
         return result;
     }
 
+    public int singleNumber2(int[] nums) {
+        Map<Integer, Integer> map = new HashMap();
+
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0)+1);
+        }
+
+        for (Integer num : map.keySet()) {
+            if (map.get(num) == 1) {
+                return num;
+            }
+        }
+
+        return -1;
+    }
+
     public static void main(String[] args) {
         Solution s = new Solution();
-        int A[] = {1, 2, 2, 3, 3, 4, 4};
+        int A[] = {4,1,2,1,2};
 
-        s.singleNumber(A);
+        s.singleNumber2(A);
     }
 }

@@ -57,6 +57,23 @@ public class Solution {
 		return new String(chars);
 	}
 
+	public String reverseSentence_v2(String str){
+		int start=0;
+		int end=0;
+		char[] data=str.toCharArray();
+
+		for(;end<str.length()-1;end++){
+			if(end==str.length()-1||data[end]==' '){
+				reverse(data,start,end-1);
+				start=end+1;
+			}
+		}
+
+		reverse(data,0,str.length()-1);
+
+		return new String(data);
+	}
+
 
 	/**
 	 * 题目二：字符串的左旋转操作是把字符串前面的若干个字符转移到字符串的尾部。 请定义一个函数实现字符串左旋转操作的功能。

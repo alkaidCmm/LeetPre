@@ -29,9 +29,38 @@ public class Solution {
         return result;
     }
 
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return null;
+        }
+
+        int minLength = strs[0].length();
+        for (String str : strs) {
+            if (minLength >= str.length()) {
+                minLength = str.length();
+            }
+        }
+
+        String ret = "";
+        int index = 0;
+        while (index < minLength) {
+            for (String str : strs) {
+                if (str.charAt(index) != strs[0].charAt(index)) {
+                    return ret;
+                }
+            }
+            ret += strs[0].charAt(index++);
+        }
+
+        return ret;
+    }
+
     public static void main(String[] args) {
-        String str[] = {"csmm", "csll", "cspp", "csww", "cszs"};
-        System.out.println(new Solution().longestCommonPrefix2(str));
+//        String str[] = {"csmm", "csll", "cspp", "csww", "cszs"};
+        String str[] = {"ab", "a"};
+
+//        System.out.println(new Solution().longestCommonPrefix2(str));
+        System.out.println(new Solution().longestCommonPrefix(str));
 
     }
 

@@ -27,6 +27,20 @@ public class Solution {
 			mirrorRecursively(root.getRight());
 	}
 
+	public BinaryTreeNode mirrorRecursively_v2(BinaryTreeNode root){
+		if(root==null){
+			return null;
+		}
+		BinaryTreeNode tmp=root.getLeft();
+		root.setLeft(root.getRight());
+		root.setRight(tmp);
+
+		root.setLeft(mirrorRecursively_v2(root.getLeft()));
+		root.setRight(mirrorRecursively_v2(root.getRight()));
+
+		return root;
+	}
+
 	public void printPreOrder(BinaryTreeNode root) {
 		if (root != null) {
 			System.out.println(root.getValue());

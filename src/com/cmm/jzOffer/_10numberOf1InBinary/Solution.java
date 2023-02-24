@@ -11,13 +11,23 @@ public class Solution {
 	public int numberof1(int target) {
 		int count = 0;
 		while (target != 0) {
-			count++;
 			target = target & (target - 1);
+			count++;
+		}
+		return count;
+	}
+
+	public int numberof1_v2(int target){
+		int count=0;
+
+		while(target!=0){
+			target=target&(target-1);
+			count++;
 		}
 		return count;
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new Solution().numberof1(31));
+		System.out.println(new Solution().numberof1(7));
 	}
 }

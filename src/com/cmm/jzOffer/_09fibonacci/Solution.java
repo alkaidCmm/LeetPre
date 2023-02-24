@@ -31,7 +31,7 @@ public class Solution {
     }
 
     public int fib(int n) {
-        Map<Integer, Integer> m = new HashMap<>(n+1);
+        Map<Integer, Integer> m = new HashMap<>(n + 1);
         return fib(m, n);
     }
 
@@ -39,17 +39,11 @@ public class Solution {
         if (n == 1 || n == 2) {
             return 1;
         }
-		return m.getOrDefault(n,fib(m,n-1)+fib(m,n-2));
+        return m.getOrDefault(n, fib(m, n - 1) + fib(m, n - 2));
     }
 
-//    public int fibv2(int n) {
-//        Map<Integer, Integer> m = new HashMap<>(20);
-//
-//    }
-
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 //		System.out.println(new Solution().fibonacci(-5));
-		System.out.println(new Solution().fib(10));
-	}
+    }
 
 }

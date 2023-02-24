@@ -46,6 +46,45 @@ public class Solution {
 		return root;
 	}
 
+	public BinaryTreeNode constructBinaryTree_v2(int preOrder[], int inOrder[]){
+		BinaryTreeNode root=new BinaryTreeNode(preOrder[0]);
+
+		int numLeft=0;
+		for(int i=0;i<inOrder.length-1;i++){
+			if(inOrder[i]==root.getValue()){
+				break;
+			}
+			numLeft++;
+		}
+		int numRight= inOrder.length-numLeft-1;
+
+		if(numLeft>0){
+			int[] leftPreOrder=new int[numLeft];
+			int[] leftInOrder=new int[numLeft];
+			for(int i=0;i<numLeft-1;i++){
+				leftPreOrder[i]=preOrder[i+1];
+				leftInOrder[i]=inOrder[i];
+			}
+
+			BinaryTreeNode leftRoot=constructBinaryTree_v2(leftPreOrder,leftInOrder);
+			root.setLeft(leftRoot);
+		}
+
+		if(numRight>0){
+			int[] rightPreOrder=new int[numRight];
+			int[] rightInOrder=new int[numRight];
+			for(int i=0;i<numRight-1;i++){
+				rightPreOrder[i]=preOrder[i+numLeft+1];
+				rightInOrder[i]=inOrder[i+numLeft+1];
+			}
+
+			BinaryTreeNode rightRoot=constructBinaryTree_v2(rightPreOrder,rightInOrder);
+			root.setLeft(rightRoot);
+		}
+
+		return root;
+	}
+
 	/**
 	 * 后序遍历
 	 * 

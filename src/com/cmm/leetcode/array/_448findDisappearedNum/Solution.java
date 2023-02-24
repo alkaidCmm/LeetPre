@@ -49,6 +49,6 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] nums = new int[]{4, 3, 2, 7, 8, 2, 3, 1};
-        System.out.println(findDisappearedNumbers2(nums));
+        System.out.println(findDisappearedNumbers(nums));
     }
 }

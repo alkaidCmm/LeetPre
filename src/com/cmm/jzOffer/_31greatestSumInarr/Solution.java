@@ -29,4 +29,22 @@ public class Solution {
 		}
 		return finalSum;
 	}
+
+	public static int findGreatSumofSubArray_v2(int[] num){
+		int curSum=0;
+		int finalSum=0;
+
+		for(int i=0;i<num.length-1;i++){
+			curSum+=num[i];
+			if(curSum>0){
+				if(curSum>finalSum) {
+					finalSum=curSum;
+				}
+			}else{
+				curSum=0;
+			}
+		}
+
+		return finalSum;
+	}
 }

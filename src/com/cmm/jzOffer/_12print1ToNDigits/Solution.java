@@ -50,19 +50,5 @@ public class Solution {
 
 	public static void main(String[] args) {
 		printOneToNthDigits(4);
-
-//		System.out.println("测试：");
-//		int[] ss = new int[4];
-//		for (int i = 0; i < ss.length - 1; i++)
-//			System.out.println("ss[i]="+ss[i]);
-//		System.out.println("改变之后");
-//		changeArr(ss);
-//		for (int i = 0; i < ss.length - 1; i++)
-//			System.out.println(ss[i]);
 	}
-//
-//	public static void changeArr(int s[]) {
-//		for (int i = 9; i < s.length - 1; i++)
-//			s[i] = i;
-//	}
 }

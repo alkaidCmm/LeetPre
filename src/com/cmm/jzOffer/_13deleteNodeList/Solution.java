@@ -27,6 +27,30 @@ public class Solution {
         }
     }
 
+    public static void deleteNode_v2(ListNode head, ListNode toBeDeleted) {
+        if (head == null || toBeDeleted == null) {
+            return;
+        }
+        // 删除节点为非尾节点
+        if (toBeDeleted.getNext() != null) {
+            // 保存被删除节点的下一个节点
+            ListNode p = toBeDeleted.getNext();
+            // 被删除节点的下一个节点的值赋值给被删除节点，
+            toBeDeleted.setValue(p.getValue());
+            // 被删除节点指向被删除节点的下一个节点的下一个节点
+            toBeDeleted.setNext(p.getNext());
+            // 被删除节点的下一个节点为空，即getNext为空，链表只有一个头节
+        } else if (head == toBeDeleted) {
+            head = null;
+        } else {
+            // toBeDeleted 唯一节点，head！=toBeDeleted
+            ListNode cur = head;
+            while (cur.getNext() != toBeDeleted) {
+                cur = cur.getNext();
+            }
+        }
+    }
+
     public static void printList(ListNode head) {
         ListNode current = head;
         while (current != null) {
@@ -54,7 +78,9 @@ public class Solution {
         System.out.println("原始链表");
         printList(head);
 
-        deleteNode(head, n4);
+//        deleteNode(head, n4);
+        deleteNode_v2(head, new ListNode(4));
+
         System.out.println("删除节点n4后");
         printList(head);
 

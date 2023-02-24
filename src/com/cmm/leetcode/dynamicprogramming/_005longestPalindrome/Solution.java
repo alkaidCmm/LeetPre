@@ -17,7 +17,11 @@ package com.cmm.leetcode.dynamicprogramming._005longestPalindrome;
  * Output: "bb"
  */
 public class Solution {
-
+    /**
+     * 最长回文子串
+     * @param s
+     * @return
+     */
     public String longestPalindrome(String s) {
         String res = "";
         for (int i = 0; i < s.length(); i++) {
