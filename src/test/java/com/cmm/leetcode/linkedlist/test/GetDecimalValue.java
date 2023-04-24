@@ -2,10 +2,6 @@ package com.cmm.leetcode.linkedlist.test;
 
 import com.cmm.leetcode.linkedlist.ListNode;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 /**
  * @author caimingming02
  * @date 2020/12/17 9:25 AM

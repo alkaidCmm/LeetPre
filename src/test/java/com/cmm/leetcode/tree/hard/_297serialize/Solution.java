@@ -1,7 +1,8 @@
+package com.cmm.leetcode.tree.hard._297serialize;
+
 import com.cmm.leetcode.tree.TreeNode;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 public class Solution {

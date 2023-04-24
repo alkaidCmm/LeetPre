@@ -1,7 +1,5 @@
 package com.cmm;
 
-import java.util.*;
-
 public class Test {
 
     public int[] plusOne(int[] digits) {
